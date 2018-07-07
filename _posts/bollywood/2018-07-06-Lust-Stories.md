@@ -3,32 +3,32 @@
 layout: post
 
 
-title: Veere Di Wedding (2018)
+title: Lust Stories (2018)
 
-director:  Shashanka Ghosh
+director:  Zoya Akhtar, Dibakar Banerjee, Karan Johar
 
-writer:    Nidhi Mehra, Mehul Suri
+writer:    Zoya Akhtar, Dibakar Banerjee, Karan Johar
 
-star:    Kareena Kapoor, Sonam Kapoor, Swara Bhaskar
+star:    Radhika Apte, Bhumi Pednekar, Manisha Koirala, Kiara Advani
 
-description: Four girls on their way to find true love discover that friendship this strong has its consequences.
+description: Lust Stories is the sequel to 2013 movie Bombay Talkies presenting four short films by four of India's biggest directors exploring love, sex and relationships in modern India.
 
-thumbnail: https://m.media-amazon.com/images/M/MV5BYzM2ZDZmNTItZjQ2YS00N2U3LWFlZDMtZDRjZGYwZmM0N2Q4XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX182_CR0,0,182,268_AL__QL50.jpg
+thumbnail: https://m.media-amazon.com/images/M/MV5BMTgwNTQ4NDAyN15BMl5BanBnXkFtZTgwNjMwMzQ3NTM@._V1_UX182_CR0,0,182,268_AL__QL50.jpg
 
-imdb: 2.8
+imdb: 6.8
 
-genre: Comedy
+genre: Drama
 
-duration:  2h 15min
+duration:  2h 
 
 category: bollywood
 
 
-trailer: IZODr96ZRCc
+trailer: cH4mYC91omg
 
 index1: 1
 quality1: 720p
-server1: https://openload.co/stream/2P9m2Mf0obU~1531001760~2401:4900::~b5Qe2-q2
+server1: https://openload.co/stream/N_KGtgBToDM~1531069338~2401:4900::~rfoboNqf
 
 ---
 
