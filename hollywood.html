@@ -1,0 +1,127 @@
+---
+permalink: "./hollywood.html"
+---
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ site.title }}</title>
+		<link rel="shortcut icon" href="images/logo.png" type="image/png">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+		<link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	    <link href="http://vjs.zencdn.net/6.2.7/video-js.css" rel="stylesheet">
+	    <link rel="stylesheet" href="{{site.baseurl}}/css/font-awesome.min.css">
+	    <link rel="stylesheet" href="{{site.baseurl}}/css/owl.carousel.min.css">
+	    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	      <a class="navbar-brand" href="./index.html">
+	        <img src="images/logo.png" width="100" height="40" class="d-inline-block align-top" alt="">
+	        {{ site.title }}
+	      </a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	        <ul class="navbar-nav mr-auto">
+	          <li class="nav-item active">
+	            <a class="nav-link" href="./index.html">Home</a>
+	          </li>
+	          <li class="nav-item active">
+	            <a class="nav-link" href="./entertainment.html">Entertainment</a>
+	          </li>
+	          <li class="nav-item active">
+	            <a class="nav-link" href="./movie.html">Movies <span class="sr-only">(current)</span></a>
+	          </li>
+	          <li class="nav-item active">
+	            <a class="nav-link" href="./blogs.html">Blogs</a>
+	          </li>
+	          <li class="nav-item active">
+	            <a class="nav-link" href="./services.html">Services</a>
+	          </li>
+	        </ul>
+	        <ul class="navbar-nav">
+	          <li class="nav-item text-left active">
+	                <a class="nav-link" href="https://twitter.com/SyedSaquibAhma5"><i class="fab fa-twitter fa-2x"></i></a>
+	            </li>
+	            <li class="nav-item text-left active">
+	                <a class="nav-link" href="https://www.facebook.com/syedsaquib.ahmad786"><i class="fab fa-facebook-square fa-2x"></i></a>
+	            </li>
+	            <li class="nav-item text-left active">
+	                <a class="nav-link" href="https://www.instagram.com/_saquibahmad/"><i class="fab fa-instagram fa-2x"></i></a>
+	            </li>
+	          <li class="nav-item active">
+	            <a class="nav-link" href="./about.html">About Owner</a>
+	            </li>
+	        </ul>
+	        
+	      </div>
+	    </nav>
+		<!-- movie carosoul-->
+		<div class="top-header">
+		  <div class="owl-carousel">
+		    {% for post in site.categories.Movies limit:10%}
+		      <div class="image-container">
+		        <img src="{{post.thumbnail}}" alt="{{post.title}}">
+		        <a href="{{site.baseurl}}/{{post.url}}"><div class="movie-details">
+		          <div class="detail-list">
+		            <h1 class="title">{{post.title}}</h1>
+		            <p class="imdb">IMDB : {{post.imdb}}/10</p>
+		            <p class="genre">Genre : {{post.genre}}</p>
+		            <h2 class="description">{{post.description}}</h2>
+		          </div>
+		        </div>
+		      </a>
+		    </div>
+		  {% endfor %}
+			</div>
+		</div>
+
+		<!--Movies-->
+		<div class="category-title">
+		<div class="row">
+		  <div class="col-lg-12">
+		    <h3>Movies</h3>
+		  </div>
+		</div>
+		</div>
+		<div class="cards">
+		<div class="container-fluid">
+		  <div class="row">
+		    <div class="col-lg-12">
+		      {% for post in site.categories.Movies%}
+		        <div class="cards-content">
+		          <figure>
+		            <span>{{post.imdb}}</span>
+		            <a href="{{site.baseurl}}/{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
+		          </figure>
+		          <figcaption>
+		          <h4>{{post.title}}</h4>
+		          <br>
+		          <p>{{post.genre}}</p>
+		          </figcaption>
+		        </div>
+		      {% endfor %}
+		    </div>
+		  </div>
+		</div>
+		</div>
+
+		<!--javascript-->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+		<script src="{{site.baseurl}}/js/owl.carousel.min.js" charset="utf-8"></script>
+		<script src="{{site.baseurl}}/js/search.js" charset="utf-8"></script>
+		<script src="{{site.baseurl}}/js/main.js" charset="utf-8"></script>
+		<script src="http://vjs.zencdn.net/6.2.7/video.js"></script>
+		<script src="https://unpkg.com/videojs-flash/dist/videojs-flash.js"></script>
+		<script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59b2315608b86ac1"></script>
+	</body>
+</html>

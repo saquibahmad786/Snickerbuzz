@@ -1,0 +1,8 @@
+title: SnickerBuzz
+email: your-email@example.com
+description: we try to provide all sort of entertainment and knowledge you need to have in your daily life...
+baseurl: /snickerbuzz.com
+markdown: kramdown
+author: Syed Saquib Ahmad
+plugins:
+  - jekyll-feed

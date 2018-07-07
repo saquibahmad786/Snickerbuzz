@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="shortcut icon" href="{{site.baseurl}}/images/log.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="{{site.baseurl}}/./index.html">
+        <img src="{{site.baseurl}}/images/logo.png" width="100" height="40" class="d-inline-block align-top" alt="">
+        EduLern
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{{site.baseurl}}/./index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{{site.baseurl}}/./entertainment.html">Entertainment</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{{site.baseurl}}/./movies.html">Movies <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{{site.baseurl}}/./blogs.html">Blogs</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{{site.baseurl}}/./services.html">Services</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item text-left active">
+                <a class="nav-link" href="https://twitter.com/SyedSaquibAhma5"><i class="fab fa-twitter fa-2x"></i></a>
+            </li>
+            <li class="nav-item text-left active">
+                <a class="nav-link" href="https://www.facebook.com/syedsaquib.ahmad786"><i class="fab fa-facebook-square fa-2x"></i></a>
+            </li>
+            <li class="nav-item text-left active">
+                <a class="nav-link" href="https://www.instagram.com/_saquibahmad/"><i class="fab fa-instagram fa-2x"></i></a>
+            </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="{{site.baseurl}}/./about.html">About Owner</a>
+            </li>
+        </ul>
+        
+      </div>
+    </nav>
+
+    <!--my video-player-->
+    <video id="my-video" class="video-js" controls preload="auto" width="100%" height="650"
+      poster="{{page.thumbnail}}" data-setup={}>
+      <source src="{{page.server1}}" type='video/mp4'>
+      <source src="{{page.server1}}" type='video/webm'>
+      <source src="{{page.server1}}" type='video/mkv'>  
+      If video doesnt play than please use Google Chrome Browser.
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser that support HTML5 video Player
+      </p>
+    </video>
+    <div class="download-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-6 col-xs-3">
+            <div class="table-container">
+              {% if page.category == "Movies" %}
+                {% include movies.html%}
+              {% else %}
+                {% include movies.html%}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--share button-->
+    <div class="share-buttons">
+      <div class="addthis_inline_share_toolbox"></div>
+    </div>
+    <!--movie-detail container & stream option container-->
+    <div class="movie-complete-details">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8">
+            <!--container-1-->
+            <div class="details">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div id="thumbnail">
+                    <img class="img-thumbnail" src="{{page.thumbnail}}" alt="{{post.title}}">
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <h1>{{page.title}}</h1>
+                  <div class="star">
+                    <p><span><i class="fa fa-star" aria-hidden="true"></i></span> {{page.imdb}}/10 | {{page.duration}}</p>
+                  </div>
+                  <div class="extra-detail-container">
+                    <p>Genre : {{page.genre}}</p>
+                    <p>Directors : {{page.director}}</p>
+                    <p>Writers : {{page.writer}}</p>
+                    <p>Stars : {{page.star}}</p>
+                    <p>{{page.description}}</p>
+                  </div>
+                </div>
+              </div>
+              <!--Synopsis-->
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="synopsis">
+                    <h2>Synopsis</h2>
+                    <p>{{content}}</p>
+                  </div>
+                </div>
+              </div>
+              <!--Trailer-->
+              <div class="trailer">
+                <iframe width="100%" height="430" src="https://www.youtube.com/embed/{{page.trailer}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <!--commment box-->
+              <div class="comment-box">
+                <div id="disqus_thread"></div>
+                  <script>
+                  (function() { 
+                  var d = document, s = d.createElement('script');
+                  s.src = 'https://snickerbuzz.disqus.com/embed.js';
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+                  })();
+                  </script>
+                  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+              </div>
+            </div>
+          </div>
+          <!--Advertisement Area-->
+          <div class="col-lg-4">
+            <!-- container-2 -->
+            <div class="ads" id="ad0">
+              <a href="https://affiliates.getresponse.com/material/hit/221/anand2050">
+                <img src="https://affiliates.getresponse.com/material/view/221/anand2050" />
+              </a>
+            </div>
+            <div class="ads" id="ad1">
+              <a href="http://www.socialpilot.co?refer=IBHD2XMS"  title="Socialpilot" target="_blank"><img src="http://affiliate.socialpilot.co/themes/socialpilot/assets/img/affiliate/socialpilot_300x250.png" alt="banner" title="social banner"/>
+              </a>
+            </div>
+            <div class="ads" id="ad2">
+              <a href="//www.semrush.com/sem/?ref=0277578085&refer_source=&utm_source=berush&utm_medium=promo&utm_campaign=banner" title="SEMrush" target="_blank"><img src="//www.berush.com/static/berush/banners/orange/300x600/300x600_en.png" alt="SEMrush" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Related Posts -->
+      
+      <div class="category-title">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Related {{page.category}}</h3>
+          </div>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              {% if page.category == "Movies" %}
+                {% for post in site.categories.Movies limit:5 %}
+                  <div class="cards-content">
+                    <figure>
+                      <span>{{post.imdb}}</span>
+                      <a href="{{site.baseurl}}{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
+                    </figure>
+                    <figcaption>
+                    <h4>{{post.title}}</h4>
+                    <br>
+                    <p>{{post.genre}}</p>
+                    </figcaption>
+                  </div>
+                {% endfor %}
+              {% else %}
+                {% for post in site.categories.bollywood limit:5 %}
+                  <div class="cards-content">
+                    <figure>
+                      <span>{{post.imdb}}</span>
+                      <a href="{{site.baseurl}}{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
+                    </figure>
+                    <figcaption>
+                    <h4>{{post.title}}</h4>
+                    <br>
+                    <p>{{post.genre}}</p>
+                    </figcaption>
+                  </div>
+                {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--javascript-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
