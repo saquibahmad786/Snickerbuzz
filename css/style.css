@@ -10,6 +10,17 @@ body {
     overflow-x: hidden;
 }
 
+.link a{
+    position: relative;
+    top: -1540px;
+    right: 10px;
+    background-color: #f1c40f;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
 .nav {
     width: 100%;
 }
@@ -165,8 +176,26 @@ body {
     line-height: 18px;
 }
 
+.h1, h1 {
+    font-size: 6.5rem;
+    position: relative;
+    top: -185px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    position: relative;
+    top: -185px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+}
+
 .category-title {
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .category-title h3 {
