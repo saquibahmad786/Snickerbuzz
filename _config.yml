@@ -3,5 +3,6 @@ email: your-email@example.com
 description: we try to provide all sort of entertainment and knowledge you need to have in your daily life...
 markdown: kramdown
 author: Syed Saquib Ahmad
+excerpt_separator: "<!--more-->"
 plugins:
   - jekyll-feed

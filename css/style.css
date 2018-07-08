@@ -10,28 +10,6 @@ body {
     overflow-x: hidden;
 }
 
-.img-thumbnail {
-    padding: 0.25rem;
-    background-color: #fff;
-    border: 1px solid #dee2e6;
-    border-radius: .25rem;
-    max-width: 33%;
-    height: auto;
-    position: relative;
-    left: 10px;
-}
-
-.link a{
-    position: relative;
-    top: -1540px;
-    right: 10px;
-    background-color: #f1c40f;
-    color: #fff;
-    font-weight: 600;
-    border-radius: 20px;
-    font-size: 24px;
-}
-
 .nav {
     width: 100%;
 }
@@ -66,6 +44,39 @@ body {
     font-weight: 600;
 }
 
+#search {
+    cursor: pointer;
+    float: left;
+    transition: all 1s ease;
+}
+
+#search-container input {
+    width: 210px;
+    padding: 0 6px;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+#search-container #results-container {
+    position: absolute;
+    top: 56px;
+    padding: 10px 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+#search-container #results-container li {
+    list-style-type: none;
+    margin: 0;
+}
+
+#search-container #results-container a {
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+}
+
 .fa-home {
     color: #2529d8;
 }
@@ -98,9 +109,6 @@ body {
     color: #146eb4;
 }
 
-.top-header {
-    margin-top: 0px;
-}
 
 .top-header .image-container {
     width: 100%;
@@ -154,26 +162,8 @@ body {
     line-height: 18px;
 }
 
-.h1, h1 {
-    font-size: 6.5rem;
-    position: relative;
-    top: -185px;
-    color: #f8f9fa;
-    font-family: 'Pacifico', cursive;
-}
-
-.h5, h5 {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 2.5rem;
-    position: relative;
-    top: -185px;
-    color: #f8f9fa;
-    font-family: 'Pacifico', cursive;
-}
-
 .category-title {
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 .category-title h3 {
@@ -253,8 +243,6 @@ body {
     margin-top: 120px;
     color: #fff;
     box-shadow: 0px 0px 5px #ccc;
-    position: relative;
-    top: -590px;
 }
 
 .newsletter .top-container {
@@ -533,51 +521,92 @@ th {
     height: 250px;
 }
 
+/*my css */
 .w-100 {
     width: 100%!important;
     height: 500px;
 }
 
-.container {
-    width: 1121px;
-    height: 551px;
-    position: relative;
-    top: -504px;
-    left: 357px;
-    font-family: 'Pacifico', cursive;
-    background: #d4d1d1;
-}
-.h3, h3 {
-    font-size: 3.75rem;
-}
-p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
+#cap1 {
     position: relative;
     top: -185px;
-    color: #1b1e21;
-    font-family: 'Pacifico', cursive;
-    position: relative;
-    top: 10px;
-}
-
-.fa, .fas {
-    font-weight: 900;
     color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 6.5rem;
 }
 
-hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
+#cap2 {
     position: relative;
-    top: -557px;
+    top: -185px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 6.5rem;
 }
 
-b, strong {
-    font-weight: bolder;
+#cap3 {
     position: relative;
-    top: -557px;
+    top: -185px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 6.5rem;
 }
+
+#cap4 {
+    position: relative;
+    top: -185px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 6.5rem;
+}
+
+#cap5 {
+    position: relative;
+    top: -185px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 6.5rem;
+}
+
+#cap6 {
+    position: relative;
+    top: -185px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+
+#cap7 {
+    position: relative;
+    top: -185px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+
+#cap8 {
+    position: relative;
+    top: -185px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+
+#cap9 {
+    position: relative;
+    top: -185px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+
+#cap10 {
+    position: relative;
+    top: -185px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+
+
+
 /*Media Query*/
