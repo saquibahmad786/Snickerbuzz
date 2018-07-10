@@ -663,6 +663,22 @@ th {
     font-size: 2.5rem;
 }
 
+#service-h1 {
+    position: relative;
+    top: -327px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 6.5rem;
+}
+
+#service-h5 {
+    position: relative;
+    top: -327px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+
 #p_1823534 {
     position: relative;
     top: -7420px;

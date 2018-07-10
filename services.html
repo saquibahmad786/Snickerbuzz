@@ -8,6 +8,27 @@ permalink: "./services.html"
 		<link rel="shortcut icon" href="images/logo.png" type="image/png">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<!--meta tags-->
+		<meta name="title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+		<meta name="description" content="{% if page.description%}{{page.description}}{% else%}{{site.description}}{% endif%}">
+		<meta name="keywords" content="movies online free, snickerbuzz, snickerbuzz.com, watch free movies, watch online movies, free online streaming, los movies, full movies,
+		watch films online, watch movies free online, free movies to watch, online movies free, watch movies free,
+		free full movies online, movie times, movieonline, watch hd movies,
+		watch HD films, Hot new movies, stream movies online free">
+		<meta name="url" content="{% if page.url%}{{page.url}}{% else %}{{site.baseurl}}{% endif %}">
+		<meta name="image" content="{%if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}">
+		<meta property="og:locale" content="en_US">
+		<meta property="og:type" content="post">
+		<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - SnickerBuzz">
+		<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+		<meta property="og:image" content="{%if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}" />
+		<meta property="og:site_name" content="{{site.name}}">
+		<meta property="article:publisher" content="{{site.name}}" />
+		<meta property="article:author" content="{{site.author}}" />
+		<meta property="article:published_time" content="{{ page.date }}" />
+		<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -51,9 +72,16 @@ permalink: "./services.html"
 		        <a class="nav-link" href="./about.html">About Owner</a>
 		      	</li>
 		    </ul>
-		    
 		  </div>
 		</nav>
+		<div class="blog-image">
+			<img src="images/service.jpg" alt="Services pic" width="100%" height="500px">
+			<div class="caption">
+		      	<h1 id="service-h1">Services</h1>
+			    <h5 id="service-h5">We provide efficient and effective services.</h5>
+			</div>
+		</div>
+		<h4 align="center" style="position: relative;top: -100px">Services would be uloaded soon, stay connected for latest updates</h4>
 		<!--javascript-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
