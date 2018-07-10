@@ -663,4 +663,24 @@ th {
     font-size: 2.5rem;
 }
 
+#p_1823534 {
+    position: relative;
+    top: -7420px;
+    left: 900px;
+}
+
+#ad0, #ad1, #ad2 {
+    height: 250px;
+    position: relative;
+    top: -7420px;
+    left: 840px;
+}
+
+#rel-h3 {
+    position: relative;
+    top: -1684px;
+    left: 10px;
+    font-size: 2.5rem;
+}
+
 /*Media Query*/

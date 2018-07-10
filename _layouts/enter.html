@@ -69,14 +69,86 @@
         </div>
       </div>
     </div>
-   
+    <!--commment box-->
+            <div class="container-fluid">
+              <div class="comment-box">
+                <div id="disqus_thread"></div>
+                  <script>
+                  (function() { 
+                  var d = document, s = d.createElement('script');
+                  s.src = 'https://snickerbuzz.disqus.com/embed.js';
+                  s.setAttribute('data-timestamp', +new Date());
+                  (d.head || d.body).appendChild(s);
+                  })();
+                  </script>
+                  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                  </div>
+                </div>
+          <!--Advertisement Area-->
+          <div class="col-lg-3">
+            <!-- container-2 -->
+            <div id="p_1823534"></div><script async="async" data-cfasync="false" src="//native.propellerads.com/1?z=1823534&eid=p_1823534"></script>
+            <div class="ads" id="ad0">
+              <a href="https://affiliates.getresponse.com/material/hit/469/saquib.ahmad9898">
+              <img src="https://affiliates.getresponse.com/material/view/469/saquib.ahmad9898" /></a>
+            </div>
+            <div class="ads" id="ad1">
+              <a href="https://affiliates.getresponse.com/material/hit/213/saquib.ahmad9898">
+              <img src="https://affiliates.getresponse.com/material/view/213/saquib.ahmad9898" /></a>
+            </div>
+            <div class="ads" id="ad2">
+              <a href="https://affiliates.getresponse.com/material/hit/195/saquib.ahmad9898">
+              <img src="https://affiliates.getresponse.com/material/view/195/saquib.ahmad9898" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--related posts-->
+      <div class="posts-title">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3 align="left" id="rel-h3">Related {{page.category}}</h3>
+          </div>
+        </div>
+      </div>
+      <div class="blogs-rel" style="position: relative; top: -1650px;">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              {% if page.category == "blogs" %}
+                {% for post in site.categories.blogs limit:5 %}
+                <a href="{{site.url}}/{{post.url}}">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{post.thumbnail}}" alt="{{post.title}}">
+                    <div class="card-body">
+                      <h5 class="card-title">{{post.title}}</h5>
+                    </div>
+                  </div></a>
+                {% endfor %}
+              {% else %}
+                {% for post in site.categories.entertainment limit:5 %}
+                <a href="{{site.url}}/{{post.url}}">
+                  <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{{post.thumbnail}}" alt="{{post.title}}">
+                    <div class="card-body">
+                      <h5 class="card-title">{{post.title}}</h5>
+                    </div>
+                  </div></a>
+                {% endfor %}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
     <!--javascript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59b2315608b86ac1"></script>
     <script src="//go.mobtrks.com/notice.php?p=1816245&interstitial=1"></script>
+    <script src="//pusherism.com/ntfc.php?p=1823523&tco=1" data-cfasync="false" async></script>
     {% include propads.html%}
+    <script src="//fortpush.com/ntfc.php?p=1823530" data-cfasync="false" async></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121981666-1"></script>
     <script>

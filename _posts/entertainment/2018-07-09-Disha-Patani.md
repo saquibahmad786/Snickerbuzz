@@ -68,4 +68,22 @@ Disha's choices of roles are pretty different than that of yours. While most act
 Disha did her Bachelors of Technology in of Technology in Computer Science and Engineering from Amity University, Lucknow. She was also the head girl of her school. That's a complete package we must say.
 
 
+#### 8. Not Fond Of Compliments
 
+<img src="http://www.baltana.com/files/wallpapers-1/Disha-Patani-Wallpaper-03076.JPG" alt="Disha Patani" style="width: 800px">
+
+While most of the girls love compliments, she ain't one of them. In fact, she gets very awkward when someone praises her and feels they are untrue. So just stop slamming her pictures with one!
+
+
+#### 9. Her Favourite Actors
+
+<img src="http://topwallpapershd.com/wp-content/uploads/2016/11/Disha-Patani-New-HD-Wallpaper-for-Dp.jpg" alt="Disha Patani" style="width: 600px; height: 600px">
+
+Just like many others, Ranbir Kapoor rules her heart. Also, she considers Priyanka Chopra her role model and loved both the actors in 'Barfi'. You never know we might see her working with one of them soon.
+
+
+#### 10. Miss India Runner Up
+
+<img src="http://www.nettv4u.com/fileman/Uploads/ten-unknown-facts-about-disha-patani/DISHA_PATANI_BEAUTY_PAEGENT.jpg" alt="Disha Patani" style="width: 800px">
+
+She became runner’s up of Miss India Indore in 2013. She was also supposed to play Shraddha Kapoor’s role in the movie Baaghi alongside Tiger shroff but finally, the role went to Shraddha.
