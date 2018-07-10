@@ -162,10 +162,6 @@ body {
     line-height: 18px;
 }
 
-.category-title {
-    margin-top: 80px;
-}
-
 .category-title h3 {
     float: left;
     margin-top: 50px;
@@ -607,6 +603,64 @@ th {
     font-size: 2.5rem;
 }
 
+#hollywood-id {
+    padding: 5px 20px;
+    position: relative;
+    top: 12px;
+    background-color: #f1c40f;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    position: relative;
+    top: -1530px;
+    right: 19px;
+}
 
+#bollywood-id {
+    padding: 5px 20px;
+    position: relative;
+    top: 12px;
+    background-color: #f1c40f;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    position: relative;
+    top: -1530px;
+    right: 19px;
+}
+
+#blog-h1 {
+    position: relative;
+    top: -327px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 6.5rem;
+}
+
+#blog-h5 {
+    position: relative;
+    top: -320px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+
+#entertain-h1 {
+    position: relative;
+    top: -327px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 6.5rem;
+}
+
+#entertain-h5 {
+    position: relative;
+    top: -327px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
 
 /*Media Query*/
