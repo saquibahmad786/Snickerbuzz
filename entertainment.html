@@ -81,11 +81,13 @@ permalink: "./entertainment.html"
 			    <h5 id="entertain-h5">Get the latest news and gossips of celebs</h5>
 			</div>
 		</div>
-		<div class="container-fluid" style="position: relative;
-    left: 190px;">
-			<div class="blog-card" style="margin-top: -120px">
-				<div class="row">
+		<div class="container-fluid" >
+			
+				<div class="row" style="margin-top: -120px;">
 					<div class="col-lg-8">
+
+
+						<div class="blog-card">
 						{% for post in site.categories.entertainment %}
 						<div class="card mb-3">
 						  <a href="{{site.url}}/{{post.url}}">	
@@ -93,11 +95,24 @@ permalink: "./entertainment.html"
 						  <div class="card-body">
 						    <h5 class="card-title">{{post.title}}</h5>
 						    <p class="card-text">{{post.description}}</p></a>
-						  </div>
 						</div>
-						{% endfor %}
+						  </div>
+						  {% endfor %}
+						</div>
+
+						
+
+
+						</div>
+						<div class="col-lg-4">
+							  <div class="hold_it_baby" >
+					            <div class="ads-container" style="width: 300px; margin-left: 50px;">
+					            <div id="p_1823534"></div><script async="async" data-cfasync="false" src="//native.propellerads.com/1?z=1823534&eid=p_1823534"></script>
+					            </div>
+					            </div>
+						
 					</div>
-				</div>
+				
 			</div>
 		</div>
 
@@ -105,6 +120,7 @@ permalink: "./entertainment.html"
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+		<script src="{{site.url}}/js/main.js"></script>
 		<!--Ads-->
 		<script src="//go.mobtrks.com/notice.php?p=1816245&interstitial=1"></script>
 		<script src="//fortpush.com/ntfc.php?p=1823530" data-cfasync="false" async></script>
