@@ -135,6 +135,33 @@ permalink: "./index.html"
 		    <span class="sr-only">Next</span>
 		  </a>
 		</div>
+
+		<div class="container-bloghead" style="margin-top: 30px;">
+			<div class="row">
+				<div class="col-lg-8">
+					<h3 align="left" style="margin-left: 20px;">Entertainment Blogs</h3>
+				</div>
+				<div class="col-lg-4">
+					<a href="./entertainment.html" style="margin-top: 10px;">View More</a>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-3">
+					{% for post in site.categories.entertainment limit:5 %}
+					<a style="padding: 15px 15px;" href="{{site.url}}/{{post.url}}">
+	                  <div class="card" style="width: 18rem;">
+	                    <img class="card-img-top" src="{{post.thumbnail}}" alt="{{post.title}}">
+	                    <div class="card-body">
+	                      <h5 class="card-title">{{post.title}}</h5>
+	                    </div>
+	                  </div>
+	                </a>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
 		
 		<!--javascript-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

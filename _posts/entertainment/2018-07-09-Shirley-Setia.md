@@ -7,7 +7,7 @@ title: Shirley Setia, The Millennials’ Queen
 
 description: the tiny one with not so tiny dreams. 
 
-thumbnail: http://www.baltana.com/files/wallpapers-3/Shirley-Setia-HQ-Desktop-Wallpaper-10290.jpg
+thumbnail: https://images.pycker.com/shirley-setia/shirley-setia/maxresdefault_152327790114.jpg
 
 category: entertainment
 

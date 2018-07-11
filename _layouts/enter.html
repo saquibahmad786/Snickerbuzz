@@ -131,11 +131,9 @@
       </div>
       <div class="blogs-rel" id="blogs-rel">
         <div class="container">
-
-
           <div class="row">
             {% if page.category == "blogs" %}
-            {% for post in site.categories.blogs limit:4 %}
+            {% for post in site.categories.blogs limit:5 %}
 
             <div class="col-lg-3">
                 <a style="padding: 15px 15px;" href="{{site.url}}/{{post.url}}">
@@ -148,7 +146,7 @@
                 </a>
                 {% endfor %}
               {% else %}
-                {% for post in site.categories.entertainment limit:4 %}
+                {% for post in site.categories.entertainment limit:5 %}
                 <a style="padding: 15px 15px;" href="{{site.url}}/{{post.url}}">
                   <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="{{post.thumbnail}}" alt="{{post.title}}">
