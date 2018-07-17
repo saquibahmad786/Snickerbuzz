@@ -8,8 +8,8 @@ permalink: "./blogs.html"
 		<link rel="shortcut icon" href="images/logo.png" type="image/png">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
 		<meta name="title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 		<meta name="description" content="{% if page.description%}{{page.description}}{% else%}{{site.description}}{% endif%}">
 		<meta name="keywords" content="movies online free, snickerbuzz, snickerbuzz.com, watch free movies, watch online movies, free online streaming, los movies, full movies,
@@ -45,13 +45,13 @@ permalink: "./blogs.html"
 		        <a class="nav-link" href="./index.html">Home</a>
 		      </li>
 		      <li class="nav-item text-left active">
-		        <a class="nav-link" href="./entertainment.html">Entertainment</a>
+		        <a class="nav-link" href="./entertainment.html">Entertainment <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item text-left active">
 		        <a class="nav-link" href="./movie.html">Movies</a>
 		      </li>
 		      <li class="nav-item text-left active">
-		        <a class="nav-link" href="./blogs.html">Blogs <span class="sr-only">(current)</span></a>
+		        <a class="nav-link" href="./blogs.html">Blogs</a>
 		      </li>
 		      <li class="nav-item text-left active">
 		        <a class="nav-link" href="./services.html">Services</a>
@@ -77,25 +77,37 @@ permalink: "./blogs.html"
 		<div class="blog-image">
 			<img src="images/blog.jpg" alt="Blogs pic" width="100%" height="500px">
 			<div class="caption">
-		      	<h1 id="blog-h1">Blogs</h1>
-			    <h5 id="blog-h5">View my blogs on our daily life.</h5>
+		      	<h1 id="entertain-h1">Blogs</h1>
+			    <h5 id="entertain-h5">View my blogs on our daily life.</h5>
 			</div>
 		</div>
-		<h4 align="center" style="position: relative;top: -100px">There are no blogs yet, stay connected for latest updates</h4>
-		<div class="blog-card">
-			<div class="row">
-				<div class="col-lg-12">
-					{% for post in site.categories.blogs %}
-					<div class="card mb-3">
-					  <a href="{{site.url}}/{{post.url}}">	
-					  <img class="card-img-top" src="{{post.thumbnail}}" alt="{{post.title}}"></a>
-					  <div class="card-body">
-					    <h5 class="card-title">{{post.title}}</h5>
-					    <p class="card-text">{{post.description}}</p>
-					  </div>
+		<div class="container-fluid" >
+			
+				<div class="row" style="margin-top: -120px;">
+					<div class="col-lg-8">
+						<div class="blog-card">
+						{% for post in site.categories.blogs %}
+						<div class="card mb-3">
+						  <a href="{{site.url}}/{{post.url}}">	
+						  <img class="card-img-top" src="{{post.thumbnail}}" alt="{{post.title}}">
+						  <div class="card-body">
+						    <h5 class="card-title">{{post.title}}</h5>
+						    <p class="card-text">{{post.description}}</p></a>
+						</div>
+						  </div>
+						  {% endfor %}
+						</div>
+						</div>
+						
+						<div class="col-lg-4">
+							  <div class="hold_it_baby" >
+					            <div class="ads-container" style="width: 300px; margin-left: 50px;">
+					            <div id="p_1823534"></div><script async="async" data-cfasync="false" src="//native.propellerads.com/1?z=1823534&eid=p_1823534"></script>
+					            </div>
+					            </div>
+						
 					</div>
-					{% endfor %}
-				</div>
+				
 			</div>
 		</div>
 
@@ -107,6 +119,7 @@ permalink: "./blogs.html"
 				  </div>
 				  </div>
 				</div>
+
 		<!--javascript-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
@@ -114,8 +127,8 @@ permalink: "./blogs.html"
 		<script src="{{site.url}}/js/main.js"></script>
 		<!--Ads-->
 		<script src="//go.mobtrks.com/notice.php?p=1816245&interstitial=1"></script>
-		{% include propads.html%}
 		<script src="//fortpush.com/ntfc.php?p=1823530" data-cfasync="false" async></script>
+		{% include propads.html%}
 		<script src="//pusherism.com/ntfc.php?p=1823523&tco=1" data-cfasync="false" async></script>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121981666-1"></script>
