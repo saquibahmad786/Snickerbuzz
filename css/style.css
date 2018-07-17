@@ -576,6 +576,16 @@ th {
     top:0;
 }
 
+#blo-id {
+    padding: 5px 20px;
+    background-color: #f1c40f;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    position: relative;
+}
+
 /*Media Query*/
 
 @media (min-width: 641px) and (max-width: 1000px) {
@@ -606,5 +616,5 @@ th {
     font-family: 'Pacifico', cursive;
     font-size: 2.5rem;
     }
-
+    
 }

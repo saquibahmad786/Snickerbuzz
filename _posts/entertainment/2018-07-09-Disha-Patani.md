@@ -87,3 +87,4 @@ Just like many others, Ranbir Kapoor rules her heart. Also, she considers Priyan
 <img src="http://www.nettv4u.com/fileman/Uploads/ten-unknown-facts-about-disha-patani/DISHA_PATANI_BEAUTY_PAEGENT.jpg" alt="Disha Patani" style="width: 800px">
 
 She became runner’s up of Miss India Indore in 2013. She was also supposed to play Shraddha Kapoor’s role in the movie Baaghi alongside Tiger shroff but finally, the role went to Shraddha.
+
