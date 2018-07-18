@@ -417,6 +417,8 @@ th {
     height: 250px;
 }
 
+
+
 /*my css */
 .w-100 {
     width: 100%!important;
@@ -586,7 +588,71 @@ th {
     position: relative;
 }
 
+
+
 /*Media Query*/
+
+@media ( min-width: 320px) and (max-width: 640px){
+     .card{
+        width: 100% !important;
+    }
+    .cards .cards-content{
+        width: 100% !important;
+        float: none !important;
+        height: none !important;
+    }
+    #hollywood-id{
+        font-size: 14px !important;
+    }
+     #bollywood-id{
+        font-size: 14px !important;
+    }
+    #blo-id{
+        font-size: 14px !important;
+    }
+    .d-none{
+        display: block !important;
+    }
+    #cap1, #cap2, #cap3, #cap4, #cap5 {
+    position: relative;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    }
+    #cap1{
+        left: -28px !important;
+    }
+
+    #cap6, #cap7, #cap8, #cap9, #cap10 {
+    position: relative;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 1rem;
+    }
+    .ads-container{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+     .post{
+        padding: 15px 15px;
+    }
+    .post .container{
+        position: initial !important;
+        left: inherit !important;
+        font-size: 16px !important;
+        max-width: 100% !important;
+    }
+    .col-lg-9{
+        width: 100% !important;
+    }
+    .post .container img{
+        width: 100% !important;
+    }
+    .movie-complete-details .details #thumbnail img{
+        width: inherit !important;
+        height: initial !important;
+    }
+}
 
 @media (min-width: 641px) and (max-width: 1000px) {
     .navbar-brand{
@@ -597,8 +663,21 @@ th {
         width: 175px;
         height: 65px;
     }
+    .card{
+        width: 100% !important;
+    }
     .navbar{
         font-size: 1.75rem;
+    }
+    .ads-container{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+       .ads-container img{
+        height: 400px;
+    }
+    .d-none{
+        display: block !important;
     }
 
     #cap1, #cap2, #cap3, #cap4, #cap5 {
@@ -616,5 +695,23 @@ th {
     font-family: 'Pacifico', cursive;
     font-size: 2.5rem;
     }
-    
+    .post{
+        padding: 15px 15px;
+    }
+    .post .container{
+        position: initial !important;
+        left: inherit !important;
+        font-size: 16px !important;
+        max-width: 100% !important;
+    }
+    .col-lg-9{
+        width: 100% !important;
+    }
+    .post .container img{
+        width: 100% !important;
+    }
+     .movie-complete-details .details #thumbnail img{
+        width: inherit !important;
+        height: initial !important;
+    }
 }
