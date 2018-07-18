@@ -10,6 +10,33 @@ body {
     overflow-x: hidden;
 }
 
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f7f7f7;
+  z-index: 99; }
+
+.spin-container {
+  width: 170px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.spinner img {
+  width: 100%;
+  height: 100%; }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
 .top-header .image-container {
     width: 100%;
     height: 580px;
@@ -588,6 +615,40 @@ th {
     position: relative;
 }
 
+.service #overlay1,
+  .service #overlay2,
+  .service #overlay3,
+  .service #overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.8); }
+  .service .service-container:hover #overlay1 {
+    opacity: 1; }
+  .service .service-container:hover #overlay2 {
+    opacity: 1; }
+  .service .service-container:hover #overlay3 {
+    opacity: 1; }
+  .service .service-container:hover #overlay4 {
+    opacity: 1; }
+  .service #text1,
+  .service #text2,
+  .service #text3,
+  .service #text4 {
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); }
 
 
 /*Media Query*/
@@ -652,6 +713,42 @@ th {
         width: inherit !important;
         height: initial !important;
     }
+
+    #entertain-h1 {
+    position: relative;
+    top: -346px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    }
+
+    #entertain-h5 {
+    position: relative;
+    top: -345px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 1rem;
+    }
+
+    .blog-card {
+        margin-top: 62px;
+    }
+
+    #service-h1 {
+    position: relative;
+    top: -327px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    }
+
+    #service-h5 {
+    position: relative;
+    top: -327px;
+    color: #f8f9fa;
+    font-family: 'Pacifico', cursive;
+    font-size: 1rem;
+}
 }
 
 @media (min-width: 641px) and (max-width: 1000px) {
