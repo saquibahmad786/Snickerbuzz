@@ -748,7 +748,21 @@ th {
     color: #f8f9fa;
     font-family: 'Pacifico', cursive;
     font-size: 1rem;
-}
+    }
+
+    #own-img {
+        width: 100% !important;
+    }
+
+    #img-own {
+        width: 100% !important;
+    }
+
+    .newsletter form .input-group {
+    margin: 20px auto;
+    width: 450px !important;
+    margin-left: 16px;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 1000px) {
@@ -811,4 +825,30 @@ th {
         width: inherit !important;
         height: initial !important;
     }
+
+    .fa-calendar-check {
+        padding-top: 4% !important;
+    }
+
+    .fa-user-clock {
+        padding-top: 4% !important;
+    }
+
+    .fa-phone {
+        padding-top: 4% !important;
+    }
+
+    #own-img {
+        width: 100% !important;
+    }
+
+    #img-own {
+        width: 100% !important;
+    }
+
+    .newsletter form .input-group {
+    margin: 20px auto;
+    width: 600px;
+    margin-left: 20px;
+}
 }
