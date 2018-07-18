@@ -28,7 +28,7 @@ trailer: IZODr96ZRCc
 
 index1: 1
 quality1: 720p
-server1: https://openload.co/stream/2P9m2Mf0obU~1531001760~2401:4900::~b5Qe2-q2
+server1: https://openload.co/stream/2P9m2Mf0obU~1532012763~159.65.0.0~T0znvlEi
 
 ---
 

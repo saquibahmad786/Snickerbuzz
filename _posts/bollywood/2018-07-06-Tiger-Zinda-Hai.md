@@ -28,7 +28,7 @@ trailer: ePO5M5DE01I
 
 index1: 1
 quality1: 720p
-server1: http://kh27k.filecdn.pw/f55f6761b5094a8d?download_token=314f42445455be7945214049ac792453c38c6b7e00276d9806a2e2a97a028369
+server1: https://openload.co/stream/hnUgD8WriWA~1532012799~159.65.0.0~mSd3eQMK
 
 ---
 

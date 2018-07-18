@@ -39,11 +39,11 @@ While recording the song for T-series competition, she was wearing pajamas. This
 
 #### 3. Her Most Popular Video
 
-<img src="http://www.baltana.com/files/wallpapers-3/Shirley-Setia-Best-Wallpaper-10285.jpg" alt="Shirley Setia" style="width: 800px">
+<iframe width="800" height="500" src="https://www.youtube.com/embed/csqBMqvW17Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Shirley Setia is well known famous personality among teens and music lovers here in India. Her YouTube channel has crossed 6.5 lacs subscribers with 15 such videos which have individually received more than a million views.
 
-Her most popular till date is her cover song “Sanam Re” from the Bollywood movie “Sanam Re” which was actually sung by Arijit Singh. She uploaded this video on 9th February 2016 and it currently has more than 1 crore ( 10 Million ) views on YouTube.
+Her most popular till date is her cover song “Bol do na zara” from the Bollywood movie “Azhar” which was actually sung by Arman Malik. She uploaded this video on 31st May 2016 and it currently has more than 29 Million views on YouTube.
 
 
 #### 4. Inspiration
