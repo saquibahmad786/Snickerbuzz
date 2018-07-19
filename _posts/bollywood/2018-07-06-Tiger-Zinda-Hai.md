@@ -28,7 +28,7 @@ trailer: ePO5M5DE01I
 
 index1: 1
 quality1: 720p
-server1: https://openload.co/stream/hnUgD8WriWA~1532012799~159.65.0.0~mSd3eQMK
+server1: https://openload.co/stream/hnUgD8WriWA~1532069254~2401:4900::~6vjHecd3
 
 ---
 
