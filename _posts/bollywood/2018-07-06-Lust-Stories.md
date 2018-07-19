@@ -28,7 +28,7 @@ trailer: cH4mYC91omg
 
 index1: 1
 quality1: 720p
-server1: https://openload.co/stream/N_KGtgBToDM~1532069022~2401:4900::~wjzQnUHD
+server1: http://s1.0music.pro/s3/Movie/Lust.Stories.2018/Lust.Stories.2018.720p.WEB-DL.MkvCage.mkv
 
 ---
 

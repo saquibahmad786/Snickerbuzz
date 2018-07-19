@@ -28,7 +28,7 @@ trailer: ePO5M5DE01I
 
 index1: 1
 quality1: 720p
-server1: https://openload.co/stream/hnUgD8WriWA~1532069254~2401:4900::~6vjHecd3
+server1: http://103.66.178.220/ftp/HDD2/Hindi%20Movies/Tiger%20Zinda%20Hai%202017.mp4
 
 ---
 

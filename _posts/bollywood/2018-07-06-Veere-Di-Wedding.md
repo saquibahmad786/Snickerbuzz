@@ -28,7 +28,7 @@ trailer: IZODr96ZRCc
 
 index1: 1
 quality1: 720p
-server1: https://openload.co/stream/2P9m2Mf0obU~1532069308~2401:4900::~vY5HmdlC
+server1: http://s1.0music.pro/s3/Movie/Veere.Di.Wedding.2018/Veere.Di.Wedding.2018.720p.HDCAM.SaNiG.mkv
 
 ---
 

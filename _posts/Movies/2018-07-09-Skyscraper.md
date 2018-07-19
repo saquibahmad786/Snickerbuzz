@@ -28,7 +28,7 @@ trailer: t9QePUT-Yt8
 
 index1: 1
 quality1: 720p
-server1: https://openload.co/stream/Rfkxl0FsDRU~1532016136~223.184.0.0~xWYJR0Oi
+server1: http://dl.ariamovie.download/dl7/mahmood/Movies/2018/Skyscraper%20%282018%29%20720p%20HDCAM%20Ganool%20%28AriaMovie%29.mkv
 
 ---
 
