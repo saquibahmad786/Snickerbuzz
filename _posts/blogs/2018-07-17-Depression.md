@@ -1,6 +1,6 @@
 ---
 
-layout: enter
+layout: blo
 
 
 title: Trying to Fight Depression? Here are the ways!!

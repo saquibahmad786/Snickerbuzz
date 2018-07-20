@@ -1,6 +1,6 @@
 ---
 
-layout: enter
+layout: blo
 
 
 title: Tips, How to Face Interview
