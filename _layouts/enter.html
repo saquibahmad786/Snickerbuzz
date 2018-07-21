@@ -128,11 +128,11 @@
         </div>
       </div>
       <div class="blogs-rel" id="blogs-rel">
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-lg-3" style="display: inherit;">
                 {% for post in site.categories.entertainment limit:5 %}
-                <a style="padding: 15px 15px;" href="{{site.url}}/{{post.url}}">
+                <a style="padding: 15px 8px;" href="{{site.url}}/{{post.url}}">
                   <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="{{post.thumbnail}}" alt="{{post.title}}">
                     <div class="card-body">
