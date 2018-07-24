@@ -63,12 +63,12 @@ server8: https://nofile.io/g/1HmBlta2IaOkGEWnoONpIF7vRrXVw7LvviztOdUqcSAs5yWbxvE
 
 index9: 9
 episode9: Episode 9
-season1: Season 2
+season1: Season 1
 server9: https://nofile.io/g/6xbSRUtmZ2L7cwUzceLxpK8OGTjIrSJYlDQuxoVKZjbiUjpAMpVPQpcqt34Pbcok/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e09.mp4/
 
 index10: 10
 episode10: Episode 10
-season1: Season 2
+season1: Season 1
 server10: https://nofile.io/g/jUBeJ2Z7oc4yKQplLSFd27BOftpi6e25MLTzBjhBzW1Qprfn5shXiTZGo0QYneDy/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e10.mp4/
 
 ---
