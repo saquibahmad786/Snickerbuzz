@@ -2,12 +2,17 @@
 <html>
   <head>
     <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="shortcut icon" href="{{site.baseurl}}/images/log.png" type="image/png">
+    <link rel="shortcut icon" href="images/logo.png" type="image/png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
     <meta name="title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="description" content="{% if page.description%}{{page.description}}{% else%}{{site.description}}{% endif%}">
+    <meta name="keywords" content="movies online free, snickerbuzz, snickerbuzz.com, watch free movies, watch online movies, free online streaming, los movies, full movies,
+    watch films online, watch movies free online, free movies to watch, online movies free, watch movies free,
+    free full movies online, movie times, movieonline, watch hd movies,
+    watch HD films, Hot new movies, stream movies online free">
     <meta name="url" content="{% if page.url%}{{page.url}}{% else %}{{site.baseurl}}{% endif %}">
     <meta name="image" content="{%if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}">
     <meta property="og:locale" content="en_US">
@@ -67,39 +72,88 @@
       </div>
     </nav>
 
-
-
-
-    <div class="post">
-      <div class="post-header">
-        <img src="{{page.thumbnail}}" alt="{{page.title}}" width="100%" height="500px">
-        <br><br>
-        <h1 align="left"><strong>{{page.title}}</strong></h1>
-        <p id="enter-p" align="left">{{page.description}}</p>
-        <hr>
-      </div>
-      <div class="container" style="position: relative;left: -68px; font-size: 1.38rem" align="justify">
+    <!--my video-player-->
+    <video id="my-video" class="video-js" controls preload="auto" width="100%" height="650"
+      poster="{{page.thumbnail}}" data-setup={}>
+      <source src="{{page.server1}}" type='video/mp4'>
+      <source src="{{page.server1}}" type='video/webm'>
+      <source src="{{page.server1}}" type='video/mkv'>  
+      If video doesnt play than please use Google Chrome Browser.
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser that support HTML5 video Player
+      </p>
+    </video>
+    <div class="download-container">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-9">
-            {{content}}
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-3">
+            <div class="table-container">
+              {% include shows.html%}
+            </div>
           </div>
-          <!--Advertisement Area-->
-          <div class="col-lg-3">
-           <div class="hold_it" >
-            <div class="ads-container" style="width: 300px; margin-left: 50px;">
-            <div id="p_1823534"></div>
-            <script async="async" data-cfasync="false" src="//native.propellerads.com/1?z=1823534&eid=p_1823534"></script>
-            </div>
-            </div>
-          </div> 
         </div>
       </div>
-    <!-- </div> -->
+    </div>
+    <!--share button-->
+    <div class="share-buttons">
+      <div class="addthis_inline_share_toolbox"></div>
+    </div>
+    <!--movie-detail container & stream option container-->
+    <div class="movie-complete-details">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8">
+            <!--container-1-->
+            <div class="details">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div id="thumbnail">
+                    <img class="img-thumbnail" src="{{page.thumbnail}}" alt="{{post.title}}">
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <h1>{{page.title}}</h1>
+                  <div class="star">
+                    <p><span><i class="fa fa-star" aria-hidden="true"></i></span> {{page.imdb}}/10 | {{page.duration}}</p>
+                  </div>
+                  <div class="extra-detail-container">
+                    <p>Genre : {{page.genre}}</p>
+                    <p>Directors : {{page.director}}</p>
+                    <p>Writers : {{page.writer}}</p>
+                    <p>Stars : {{page.star}}</p>
+                    <p>{{page.description}}</p>
+                  </div>
+                </div>
+              </div>
+              <!--Synopsis-->
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="synopsis">
+                    <h2>Synopsis</h2>
+                    <p>{{content}}</p>
+                  </div>
+                </div>
+              </div>
+              <!--Trailer-->
+              <div class="trailer">
+                <iframe width="100%" height="430" src="https://www.youtube.com/embed/{{page.trailer}}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+              </div>
 
+            </div>
+          </div>
+          <!--Advertisement Area-->
+          <div class="col-lg-4">
+            <div id="p_1823534"></div><script async="async" data-cfasync="false" src="//native.propellerads.com/1?z=1823534&eid=p_1823534"></script>
+          </div>
+        </div>
+      </div>
 
-    <!--commment box-->
-            <div class="container-fluid">
-              <div class="comment-box">
+      <!-- comments box -->
+      <div class="comment-boxy" style="margin-top: 25px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="comment-box">
                 <div id="disqus_thread"></div>
                   <script>
                   (function() { 
@@ -110,55 +164,53 @@
                   })();
                   </script>
                   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                  </div>
-                </div>
-    <br>
-    <br>
-    <br>
-
-      <!--related posts-->
-      <div class="posts-title">
-        <div class="container" style="margin: 0;">
-        <div class="row">
-          <div class="col-lg-12">
-            <h3 align="left" id="rel-h3">Related {{page.category}}</h3>
-            <br>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+      <!-- Related Posts -->
+      
+      <div class="category-title">
+        <div class="row">
+          <div class="col-lg-12">
+            <h3>Related {{page.category}}</h3>
+          </div>
         </div>
       </div>
-      <div class="blogs-rel" id="blogs-rel">
+      <div class="cards">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-3" style="display: inherit;">
-                {% for post in site.categories.entertainment limit:5 %}
-                <a style="padding: 15px 8px;" href="{{site.url}}/{{post.url}}">
-                  <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="{{post.thumbnail}}" alt="{{post.title}}">
-                    <div class="card-body">
-                      <h5 class="card-title">{{post.title}}</h5>
-                    </div>
+            <div class="col-lg-12">
+              {% for post in site.categories.series limit:5 %}
+                  <div class="cards-content">
+                    <figure>
+                      <span>{{post.imdb}}</span>
+                      <a href="{{site.baseurl}}{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
+                    </figure>
+                    <figcaption>
+                    <h4>{{post.title}}</h4>
+                    <br>
+                    <p>{{post.genre}}</p>
+                    </figcaption>
                   </div>
-                </a>
                 {% endfor %}
             </div>
           </div>
-       </div>
-     </div>
-
-
-     <!-- social share -->
+        </div>
+      </div>
+     
+      <!-- social share -->
     <script src="//platform-api.sharethis.com/js/sharethis.js#property=5b544058cd45ba0011c0ca30&product=sticky-share-buttons"></script>
     <!-- end social -->
-     
-<!--javascript-->
+
+    <!--javascript-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59b2315608b86ac1"></script>
     <script src="{{site.url}}/js/main.js"></script>
-    <script src="{{site.url}}/js/fixedsidebar.js"></script>
-     <script src="//go.mobtrks.com/notice.php?p=1816245&interstitial=1"></script>
+    <script src="//go.mobtrks.com/notice.php?p=1816245&interstitial=1"></script>
     {% include propads.html%}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121981666-1"></script>

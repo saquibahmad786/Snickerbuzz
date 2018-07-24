@@ -1,5 +1,5 @@
 ---
-permalink: "./bollywood.html"
+permalink: "./services.html"
 ---
 <!DOCTYPE html>
 <html>
@@ -53,13 +53,13 @@ permalink: "./bollywood.html"
 	            <a class="nav-link" href="./entertainment.html">Entertainment</a>
 	          </li>
 	          <li class="nav-item text-left active">
-	            <a class="nav-link" href="./movie.html">Movies <span class="sr-only">(current)</span></a>
+	            <a class="nav-link" href="./movie.html">Movies</a>
 	          </li>
 	          <li class="nav-item text-left active">
 	            <a class="nav-link" href="./blogs.html">Blogs</a>
 	          </li>
 	          <li class="nav-item text-left active">
-	            <a class="nav-link" href="./services.html">Web Series</a>
+	            <a class="nav-link" href="./services.html">Web Series <span class="sr-only">(current)</span></a>
 	          </li>
 	        </ul>
 	        <ul class="navbar-nav">
@@ -79,12 +79,10 @@ permalink: "./bollywood.html"
 	        
 	      </div>
 	    </nav>
-
-
 		<!-- movie carosoul-->
 		<div class="top-header">
 		  <div class="owl-carousel">
-		    {% for post in site.categories.bollywood limit:10%}
+		    {% for post in site.categories.series limit:10%}
 		      <div class="image-container">
 		        <img src="{{post.thumbnail}}" alt="{{post.title}}">
 		        <a href="{{site.url}}/{{post.url}}"><div class="movie-details">
@@ -101,13 +99,11 @@ permalink: "./bollywood.html"
 			</div>
 		</div>
 
-
-
 		<!--Movies-->
 		<div class="category-title">
 		<div class="row">
 		  <div class="col-lg-12">
-		    <h3>Movies</h3>
+		    <h3>Web Series</h3>
 		  </div>
 		</div>
 		</div>
@@ -115,7 +111,7 @@ permalink: "./bollywood.html"
 		<div class="container-fluid">
 		  <div class="row">
 		    <div class="col-lg-12">
-		      {% for post in site.categories.bollywood%}
+		      {% for post in site.categories.series%}
 		        <div class="cards-content">
 		          <figure>
 		            <span>{{post.imdb}}</span>
@@ -132,19 +128,18 @@ permalink: "./bollywood.html"
 		  </div>
 		</div>
 		</div>
-
+		
 		<!--javascript-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-		<script src="{{site.url}}/js/owl.carousel.min.js" charset="utf-8"></script>
+		<script src="js/owl.carousel.min.js" charset="utf-8"></script>
 		<script src="js/search.js" charset="utf-8"></script>
 		<script src="js/main.js" charset="utf-8"></script>
 		<script src="http://vjs.zencdn.net/6.2.7/video.js"></script>
 		<script src="https://unpkg.com/videojs-flash/dist/videojs-flash.js"></script>
 		<script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
-		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59b2315608b86ac1"></script>
 		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59b2315608b86ac1"></script>
 		<script src="//go.mobtrks.com/notice.php?p=1816245&interstitial=1"></script>
 		{% include propads.html%}
