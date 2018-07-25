@@ -28,7 +28,7 @@ trailer: KisPhy7T__Q
 
 index1: 1
 quality1: 720p
-server1: http://dl.yoozdl.com/film.out/Annabelle.Creation.2017/Annabelle_Creation_2017_HDRip_720p_MkvCage_(Yoozdl.com).mkv
+server1: http://dl2.upload08.com/files/Film/2017/Annabelle%20Creation%202017/Annabelle.Creation.2017.720p.BRrip.PaHe.FardaDL.mkv
 
 ---
 
