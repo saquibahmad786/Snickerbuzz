@@ -28,7 +28,7 @@ trailer: jPEYpryMp2s
 
 index1: 1
 quality1: 720p
-server1: http://dl.bi-seda.ir/M/Solo.A.Star.Wars.Story.2018/Solo.A.Star.Wars.Story.2018.720p.HDCAM.Ganool.mkv
+server1: http://dl1.upload08.com/files/Film/2018/Solo%3A%20A%20Star%20Wars%20Story%202018/Solo.A.Star.Wars.Story.2018.720p.HDCam.ENG.x264.TamilMV.FardaDL.mkv
 
 ---
 

@@ -27,8 +27,8 @@ category: Movies
 trailer: -yPuWcCykNk
 
 index1: 1
-quality1: 1080p
-server1: http://pz10028.parspack.net/F/The%20Secret%20Life%20of%20Pets%202016/The%20Secret%20Life%20of%20Pets%202016%201080p%20BluRay%20DD5%201%20x264-HDMaNiAcS.Farsi.Dubbed-%5BBi-3-Seda.Ir%5D.mkv
+quality1: 720p
+server1: http://pz10028.parspack.net/F/The%20Secret%20Life%20of%20Pets%202016/The.Secret.Life.of.Pets.2016.720p.Ganool%5BBi-3-Seda.Ir%5D.mkv
 
 
 ---

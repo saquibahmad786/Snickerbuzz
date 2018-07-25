@@ -28,7 +28,7 @@ trailer: xjDjIWPwcPU
 
 index1: 1
 quality1: 1080p
-server1: http://dl.bi-seda.ir/M/Black.Panther.2018/Black.Panther.2018.1080p.6CH.x265.PSA.mkv
+server1: http://s3.svdl.ir/h/film/kh/2018/Black.Panther/HDTS/Black.Panther.2018.HDTS.720p.MkvCage.mkv
 
 ---
 
