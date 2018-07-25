@@ -24,52 +24,52 @@ trailer: edJ6DnPXh8o
 index1: 1
 episode1: Episode 1
 season1: Season 1
-server1: https://nofile.io/g/eCjcClSoEeuxF2UzAVPadU1fuuGR6BuSCSVuVelGvHXbcMAn0s2BtsmizHcIyIyb/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e01.mp4/
+server1: https://nofile.io/g/06abszQwQ7yzqxqbcpGm5hOSjpUJuqH6EQC4Kbllznro1MmUeA1k4VxDFjRDVN8k/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e01.mp4/
 
 index2: 2
 episode2: Episode 2
 season1: Season 1
-server2: https://nofile.io/g/hvsUDqlXApQsbnfoq3fC6CVPPWn0PEc303ixQkjaa7S35rcpSNUWDO3axdP4kFnH/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e02.mp4/
+server2: https://nofile.io/g/55dBGYsIg2HFWqQ9rkgForByr3RNcSrV29L9DxnQtbvN58gEnORshpmJxQK2wchI/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e02.mp4/
 
 index3: 3
 episode3: Episode 3
 season1: Season 1
-server3: https://nofile.io/g/6HcDwRAlWoSae7cjVmi7oixpgKU9QTQc0V8o9awKgQfaU5lrBWkPIyMb3D4x4zER/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e03.mp4/
+server3: https://nofile.io/g/7Zy4gQKWoWvhWCJkjpkJS53EYszjhj7ExJxJnOErHqKnD0IAF14T2PwNFKgrHm54/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e03.mp4/
 
 index4: 4
 episode4: Episode 4
 season1: Season 1
-server4: https://nofile.io/g/lhatarqZBeVfSEwKzNLveOSAVGyG4h6dT4AGIOydE8lI6yvRD1M9tov5gVCnQAhr/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e04..mp4/
+server4: https://nofile.io/g/ies1PHCfjeibJ6YTqLzxpBzlaQma8HUILt2u1mkMTfcrRQ3PSsoxrubpSJjcoUtM/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e04..mp4/
 
 index5: 5
 episode5: Episode 5
 season1: Season 1
-server5: https://nofile.io/g/A6xPnV8jVmyMNbrUFaSKlM0ip1dN6kX3Vrz0J4ZkVMhXA503DKMzZNmBh471x4zx/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e05.mp4/
+server5: https://nofile.io/g/oSdL579JSndorefJuM0PCPlG4ApEQ2AbLAoIlwZwgB8HbMij18q9L70LjehH1WBf/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e05.mp4/
 
 index6: 6
 episode6: Episode 6
 season1: Season 1
-server6: https://nofile.io/g/NZrgLl0C4LH4YmGLgsJDL7q7rNDRt2yprU5n4CLEftDo8zA7lpzC618aaCDm9JRT/%5BMoviesBaba.Com%5D+Karenjit+Kaur+s01e06..mp4/
+server6: https://nofile.io/g/5Uu8PlYuItkAGLImmObqRfz5DtD9x96sh8FXbDr9EwfvfqUstvAKxjcIJBFylf9W/%5BMoviesBaba.Com%5D+Karenjit+Kaur+s01e06..mp4/
 
 index7: 7
 episode7: Episode 7
 season1: Season 1
-server7: https://nofile.io/g/HaBTPmV6U7iIT90LVZwMlT6DMKoisLAEN5Okn2W6HpA9Q0qLHg0at9XDaeQtgBtZ/%5BMoviesBaba.Com%5D+Karenjit+Kaur+s01e07.mp4/
+server7: https://nofile.io/g/JjdlhK0i09maxWM00vQv0OnK6kwd2NhKLF5p0KBJVTqZo6QoBNwvBqrNxQyET4EC/%5BMoviesBaba.Com%5D+Karenjit+Kaur+s01e07.mp4/
 
 index8: 8
 episode8: Episode 8
 season1: Season 1
-server8: https://nofile.io/g/1HmBlta2IaOkGEWnoONpIF7vRrXVw7LvviztOdUqcSAs5yWbxvEMvGcfIE4pv26f/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e08.mp4/
+server8: https://nofile.io/g/naq34tj7fXok93E0pX6gkXoE90Aynlis7ijOUFIE3hDMKR6KBVa1Kk88wuJBOOOm/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e08.mp4/
 
 index9: 9
 episode9: Episode 9
 season1: Season 1
-server9: https://nofile.io/g/6xbSRUtmZ2L7cwUzceLxpK8OGTjIrSJYlDQuxoVKZjbiUjpAMpVPQpcqt34Pbcok/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e09.mp4/
+server9: https://nofile.io/g/r81mC3wcZRAWMQqQsmgIIMjr6Zz7IxxduEz6hQgMIjec20a1fPqxTA3evfIsETXg/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e09.mp4/
 
 index10: 10
 episode10: Episode 10
 season1: Season 1
-server10: https://nofile.io/g/jUBeJ2Z7oc4yKQplLSFd27BOftpi6e25MLTzBjhBzW1Qprfn5shXiTZGo0QYneDy/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e10.mp4/
+server10: https://nofile.io/g/xXmzCxYGmgcPbqtLHD40wHcLw0wxNEUvjm1GSeDTR41sLN6w7HJNIthaD2f872l7/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e10.mp4/
 
 ---
 
