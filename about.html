@@ -10,16 +10,12 @@ permalink: "./about.html"
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-		<meta name="title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-		<meta name="description" content="{% if page.description%}{{page.description}}{% else%}{{site.description}}{% endif%}">
-		<meta name="keywords" content="movies online free, snickerbuzz, snickerbuzz.com, watch free movies, watch online movies, free online streaming, los movies, full movies,
-		watch films online, watch movies free online, free movies to watch, online movies free, watch movies free,
-		free full movies online, movie times, movieonline, watch hd movies,
-		watch HD films, Hot new movies, stream movies online free">
+		<meta name="title" content="{{ site.title }} - SnickerBuzz">
+		<meta name="description" content="{{site.description}}">
 		<meta name="url" content="{% if page.url%}{{page.url}}{% else %}{{site.baseurl}}{% endif %}">
 		<meta name="image" content="{%if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}">
 		<meta property="og:locale" content="en_US">
-		<meta property="og:type" content="post">
+		<meta property="og:type" content="About Owner">
 		<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - SnickerBuzz">
 		<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
 		<meta property="og:image" content="{%if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}" />

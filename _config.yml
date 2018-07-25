@@ -1,7 +1,9 @@
 title: SnickerBuzz - Variety Within
 email: saquib.ahmad9898@gmail.com
-description: SnickerBuzz try to provide all sort of entertainment and knowledge you need to have in your daily life...
+name: SnickerBuzz
+description: SnickerBuzz gets you to know about Celebrity, the latest Celebrity News and Celebrity Gossip and various Blogs to read, movies to download and watch them at ease.
 markdown: kramdown
+thumbnail: "images/logo.png"
 author: Syed Saquib Ahmad
 excerpt_separator: "<!--more-->"
 plugins:
