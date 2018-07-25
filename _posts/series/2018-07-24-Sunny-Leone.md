@@ -24,7 +24,7 @@ trailer: edJ6DnPXh8o
 index1: 1
 episode1: Episode 1
 season1: Season 1
-server1: https://nofile.io/g/06abszQwQ7yzqxqbcpGm5hOSjpUJuqH6EQC4Kbllznro1MmUeA1k4VxDFjRDVN8k/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e01.mp4/
+server1: https://nofile.io/g/hwVytm3Mm07ekbzVbZtYL9pPRfqtSNoWn8gcjsXMCS6HVYsmwvNNepl5LqkaBhBJ/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e01.mp4/
 
 index2: 2
 episode2: Episode 2
