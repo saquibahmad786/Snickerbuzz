@@ -28,7 +28,7 @@ trailer: ePO5M5DE01I
 
 index1: 1
 quality1: 720p
-server1: http://103.66.178.220/ftp/HDD2/Hindi%20Movies/Tiger%20Zinda%20Hai%202017.mp4
+server1: http://dl2.upload08.com/files/Film/2017/Tiger%20Zinda%20Hai%202017/Tiger.Zinda.Hai.2017.720p.BRrip.HEVC.MkvCage.FardaDL.mkv
 
 ---
 
