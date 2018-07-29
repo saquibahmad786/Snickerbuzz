@@ -34,22 +34,22 @@ server2: https://dbupload.info/uhh32dnvb7ko
 index3: 3
 episode3: Episode 3
 season1: Season 1
-server3: https://nofile.io/f/sDvtxWxC5vP/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e03.mp4
+server3: https://dbupload.info/4d97ocdcjl1k
 
 index4: 4
 episode4: Episode 4
 season1: Season 1
-server4: https://nofile.io/f/JRm9RhvHoCv/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e04..mp4
+server4: https://dbupload.info/bc80dktwg8og
 
 index5: 5
 episode5: Episode 5
 season1: Season 1
-server5: https://nofile.io/f/a3fgKF3OcZ1/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e05.mp4
+server5: https://dbupload.info/1zsiia248qqk
 
 index6: 6
 episode6: Episode 6
 season1: Season 1
-server6: https://nofile.io/f/AVvPqkKYDyh/%5BMoviesBaba.Com%5D+Karenjit+Kaur+s01e06..mp4
+server6: https://dbupload.info/x2h0o4yakf0r
 
 index7: 7
 episode7: Episode 7
