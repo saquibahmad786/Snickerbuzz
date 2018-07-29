@@ -17,6 +17,7 @@ category: blogs
 
 <img src="http://getwallpapers.com/wallpaper/full/1/4/e/276181.jpg" alt="Depression" width="800px">
 
+
 Many folks confuse sadness with depression. Sadness is a natural state, a necessary part of living. Depression is not a pure feeling but an effort to ward off a complex mix of unwanted ones. Anger, frustration, irritation, and grief are feelings we tend to find intolerable; we don’t want to feel them. When we’re depressed, we’re engaging in a psychic battle to blot out these unwanted feelings. Common psychic defenses against painful feelings include denial (ignoring feelings), projection (transferring feelings onto others), rationalization (downplaying feelings) or binge eating (attempting to fill the emptiness we feel inside).
 
 
