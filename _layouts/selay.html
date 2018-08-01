@@ -14,7 +14,7 @@
     free full movies online, movie times, movieonline, watch hd movies,
     watch HD films, Hot new movies, stream movies online free">
     <meta name="url" content="{% if page.url%}{{page.url}}{% else %}{{site.baseurl}}{% endif %}">
-    <meta name="image" content="{%if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}">
+    <meta name="image" content="{{ page.thumbnail }}">
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="post">
     <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - SnickerBuzz">
