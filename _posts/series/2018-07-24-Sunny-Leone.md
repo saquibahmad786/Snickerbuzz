@@ -69,7 +69,7 @@ server9: https://dbupload.info/a2rdwrn529ao
 index10: 10
 episode10: Episode 10
 season1: Season 1
-server10: https://nofile.io/f/NZdPjuQRoMr/%5BMoviesBaba.Com%5D+Karenjit+Kaur_s01e10.mp4
+server10: https://nofile.io/f/NZdPjuQRoMr
 
 ---
 
