@@ -7,7 +7,7 @@ title: Tips, How to Face Interview
 
 description: Do you feel you should use Interview Software or any such AI to teach how to appear an interview. Here are the following tips that will crack your Interview.
 
-thumbnail: http://www.careerbuilder.ca/blog/wp-content/uploads/interview-question11.jpg
+thumbnail: https://www.feedster.com/wp-content/uploads/2016/10/image02-2-1024x576.jpg
 
 category: blogs
 
