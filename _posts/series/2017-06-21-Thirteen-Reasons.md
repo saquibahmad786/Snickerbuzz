@@ -24,12 +24,12 @@ trailer: JebwYGn5Z3E
 index1: 1
 episode1: Episode 1
 season1: Season 1
-server1: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.reasons.why.s01e01.720p.webrip.Tehmovies_me.mkv
+server1: https://drive.google.com/uc?export=download&confirm=3g2-&id=1RM2EdxaG03k-plbuGrXUxIpay4pnO4vD
 
 index2: 2
 episode2: Episode 2
 season1: Season 1
-server2: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.reasons.why.s01e02.720p.webrip.Tehmovies_me.mkv
+server2: https://drive.google.com/uc?export=download&confirm=cwKW&id=1Q0PMpqv_loybs-E-SevZUpXkik1BKbsG
 
 index3: 3
 episode3: Episode 3
