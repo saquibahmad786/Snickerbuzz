@@ -24,67 +24,67 @@ trailer: 0XuOkYlUWIs
 index1: 1
 episode1: Episode 1
 season1: Season 2
-server1: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E01.720p.WEB.DL.Tehmovies.mkv
+server1: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E01.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index2: 2
 episode2: Episode 2
 season1: Season 2
-server2: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E02.720p.WEB.DL.Tehmovies..mkv
+server2: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E02.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index3: 3
 episode3: Episode 3
 season1: Season 2
-server3: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E03.720p.WEB-DL.Tehmovies.mkv
+server3: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E03.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index4: 4
 episode4: Episode 4
 season1: Season 2
-server4: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E04.720p.WEB-DL.Tehmovies.mkv
+server4: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E04.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index5: 5
 episode5: Episode 5
 season1: Season 2
-server5: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E05.720p.WEB-DL.Tehmovies.mkv
+server5: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E05.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index6: 6
 episode6: Episode 6
 season1: Season 2
-server6: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E06.720p.WEB-DL.Tehmovies.mkv
+server6: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E06.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index7: 7
 episode7: Episode 7
 season1: Season 2
-server7: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E07.720p.WEB-DL.Tehmovies.mkv
+server7: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E07.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index8: 8
 episode8: Episode 8
 season1: Season 2
-server8: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E08.720p.WEB-DL.Tehmovies.mkv
+server8: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E08.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index9: 9
 episode9: Episode 9
 season1: Season 2
-server9: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E09.720p.WEB-DL.Tehmovies.mkv
+server9: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E09.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index10: 10
 episode10: Episode 10
 season1: Season 2
-server10: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E10.720p.WEB-DL.Tehmovies.mkv
+server10: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E10.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index11: 11
 episode11: Episode 11
 season1: Season 2
-server11: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E11.720p.WEB-DL.Tehmovies.mkv
+server11: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E11.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index12: 12
 episode12: Episode 12
 season1: Season 2
-server12: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E12.720p.WEB-DL.Tehmovies.mkv
+server12: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E12.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index13: 13
 episode13: Episode 13
 season1: Season 2
-server13: http://dl20.mihanpix.com/94/series/13reasons.why/13.Reasons.Why.S02E13.720p.WEB-DL.Tehmovies.mkv
+server13: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E13.720p.WEBRip.MkvCage.FardaDL.mkv
 
 ---
 
