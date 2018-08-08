@@ -1,0 +1,4 @@
+User-Agent:*
+Disallow:
+
+sitemap: http://snickerbuzz.com/sitemap.xml
