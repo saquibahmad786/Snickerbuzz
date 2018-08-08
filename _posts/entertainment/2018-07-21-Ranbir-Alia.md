@@ -11,6 +11,8 @@ thumbnail: https://republic-imagekit.azureedge.net/republic-prod/stories/images/
 
 category: entertainment
 
+counter: http://www.cutercounter.com/hit.php?id=21211&nd=6&style=125
+
 ---
 
 Ranbir Kapoor and Alia Bhatt are in Bulgaria presently, shooting the next schedule of Brahmastra. That’s one film we are looking forward to for many reasons. But the prime one is it will be the first film of the couple together.

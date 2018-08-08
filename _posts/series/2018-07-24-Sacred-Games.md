@@ -19,6 +19,8 @@ genre:   Action, Crime, Drama
 
 category: series
 
+counter: http://www.cutercounter.com/hit.php?id=21221&nd=6&style=125
+
 trailer: 28j8h0RRov4
 
 index1: 1

@@ -11,6 +11,8 @@ thumbnail: https://www.talkspace.com/blog/wp-content/uploads/2017/09/stigma-depr
 
 category: blogs
 
+counter: http://www.cutercounter.com/hit.php?id=21218&nd=6&style=125
+
 ---
 
 ### Defining Depression

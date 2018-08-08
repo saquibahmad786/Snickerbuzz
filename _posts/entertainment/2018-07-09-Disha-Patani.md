@@ -11,6 +11,8 @@ thumbnail: https://media0.mensxp.com/media/content/2018/Apr/no-one-told-you-abou
 
 category: entertainment
 
+counter: http://www.cutercounter.com/hit.php?id=21215&nd=6&style=125
+
 ---
 
 Disha Patani has made her mark as a total heartthrob and since the time she made her debut in the MS Dhoni biopic, she has become a common name. From her smile to her vibes to her moves, she is literally killing it. 

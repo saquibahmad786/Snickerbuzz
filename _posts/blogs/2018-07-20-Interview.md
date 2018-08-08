@@ -11,6 +11,8 @@ thumbnail: https://www.feedster.com/wp-content/uploads/2016/10/image02-2-1024x57
 
 category: blogs
 
+counter: http://www.cutercounter.com/hit.php?id=21217&nd=6&style=125
+
 ---
 
 After the long, exhausting journey of searching for and applying to new jobs, you’ve just been rewarded with a golden ticket—an interview.

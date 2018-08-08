@@ -23,6 +23,7 @@ duration:  2h
 
 category: bollywood
 
+counter: http://www.cutercounter.com/hit.php?id=21227&nd=6&style=125
 
 trailer: cH4mYC91omg
 

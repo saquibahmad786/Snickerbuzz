@@ -19,6 +19,8 @@ genre:   Biography, Drama
 
 category: series
 
+counter: http://www.cutercounter.com/hit.php?id=21222&nd=6&style=125
+
 trailer: edJ6DnPXh8o
 
 index1: 1

@@ -11,6 +11,8 @@ thumbnail: https://images.pycker.com/shirley-setia/shirley-setia/maxresdefault_1
 
 category: entertainment
 
+counter: http://www.cutercounter.com/hit.php?id=21214&nd=6&style=125
+
 ---
 
 You might have come across the name of Shirley Setia before and wondered who is this beautiful girl.

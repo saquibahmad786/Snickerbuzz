@@ -19,6 +19,8 @@ genre:   Drama, Mystery
 
 category: series
 
+counter: http://www.cutercounter.com/hit.php?id=21220&nd=6&style=125
+
 trailer: 0XuOkYlUWIs
 
 index1: 1

@@ -23,6 +23,7 @@ duration:  1h 44min
 
 category: Movies
 
+counter: http://www.cutercounter.com/hit.php?id=21241&nd=6&style=125
 
 trailer: saHzng8fxLs
 

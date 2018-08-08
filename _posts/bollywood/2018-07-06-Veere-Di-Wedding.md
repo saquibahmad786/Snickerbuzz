@@ -23,6 +23,7 @@ duration:  2h 15min
 
 category: bollywood
 
+counter: http://www.cutercounter.com/hit.php?id=21235&nd=6&style=125
 
 trailer: IZODr96ZRCc
 
