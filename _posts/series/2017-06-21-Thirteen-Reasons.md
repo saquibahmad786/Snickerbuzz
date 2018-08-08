@@ -34,57 +34,57 @@ server2: https://drive.google.com/uc?export=download&confirm=cwKW&id=1Q0PMpqv_lo
 index3: 3
 episode3: Episode 3
 season1: Season 1
-server3: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.reasons.why.s01e03.720p.webrip.Tehmovies_me.mkv
+server3: https://drive.google.com/uc?export=download&confirm=6OCZ&id=1Ad0-Zi3j8F9oNCjzQA0RCDVtJXqOuKfs
 
 index4: 4
 episode4: Episode 4
 season1: Season 1
-server4: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.reasons.why.s01e04.720p.webrip.Tehmovies_me.mkv
+server4: https://drive.google.com/uc?export=download&confirm=tAS9&id=1h_Mp_vQGZfenyHdvxssYwIhgKvo91uTV
 
 index5: 5
 episode5: Episode 5
 season1: Season 1
-server5: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.reasons.why.s01e05.720p.webrip.Tehmovies_me.mkv
+server5: https://drive.google.com/uc?export=download&confirm=wHlN&id=1yxTAXc47fNmBju3aKMQachJqHkKPJKPI
 
 index6: 6
 episode6: Episode 6
 season1: Season 1
-server6: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.reasons.why.s01e06.720p.webrip.Tehmovies_me.mkv
+server6: https://drive.google.com/uc?export=download&confirm=jxhw&id=1-oS8o5J8e1OUiHHp2QBbpR03vKOSWkX5
 
 index7: 7
 episode7: Episode 7
 season1: Season 1
-server7: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.reasons.why.s01e07.720p.webrip.Tehmovies_me.mkv
+server7: https://drive.google.com/uc?export=download&confirm=X1QG&id=1rWOTxITxayqWKr0SHtbdTG2UFqxHBqfm
 
 index8: 8
 episode8: Episode 8
 season1: Season 1
-server8: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.reasons.why.s01e08.720p.webrip.Tehmovies_me.mkv
+server8: https://drive.google.com/uc?export=download&confirm=Iyzs&id=1vS1irWmOOxEmAgPwRXaG0hGnlUUa_IeX
 
 index9: 9
 episode9: Episode 9
 season1: Season 1
-server9: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.Reasons.Why.S01E09.720p.Tehmovies.mkv
+server9: https://drive.google.com/uc?export=download&confirm=tmV2&id=1sPPCThbRzIUVnoZIvoyghp1u4PI8D6ju
 
 index10: 10
 episode10: Episode 10
 season1: Season 1
-server10: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.Reasons.Why.S01E10.720p.Tehmovies.mkv
+server10: https://drive.google.com/uc?export=download&confirm=7ehX&id=1Xma_dUxYDoLaXvHEs13xFmEeERzYAZUU
 
 index11: 11
 episode11: Episode 11
 season1: Season 1
-server11: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.Reasons.Why.S01E11.720p.Tehmovies.mkv
+server11: https://drive.google.com/uc?export=download&confirm=a5sr&id=1Iu3Ur16IJgsqXJRMMwdHcGslEzzDbvyI
 
 index12: 12
 episode12: Episode 12
 season1: Season 1
-server12: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.Reasons.Why.S01E12.720p.Tehmovies.mkv
+server12: https://drive.google.com/uc?export=download&confirm=zg7X&id=1i4ZPoZmysSbv1Z2nsi0zX8uAU5dTlolZ
 
 index13: 13
 episode13: Episode 13
 season1: Season 1
-server13: http://dl20.mihanpix.com/94/series/13reasons.why/s1/13.Reasons.Why.S01E13.720p.Tehmovies.mkv
+server13: https://drive.google.com/uc?export=download&confirm=VOiV&id=1HPUwSFMAd_AVrh94bgyir6BhNMBzeIB-
 
 ---
 
