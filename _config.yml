@@ -6,5 +6,6 @@ markdown: kramdown
 thumbnail: "images/logo.png"
 author: Syed Saquib Ahmad
 excerpt_separator: "<!--more-->"
+enforce_ssl: snickerbuzz.com
 plugins:
   - jekyll-feed
