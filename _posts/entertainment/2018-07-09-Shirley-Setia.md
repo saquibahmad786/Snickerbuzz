@@ -21,7 +21,7 @@ Shirley is a 21-year-old Indo-Kiwi singer, performer, and songwriter from Auckla
 
 #### 1. History
 
-<img src="https://www.hdwallpaperweb.com/wp-content/uploads/2017/11/Stylish-Shirley-Setia-HD-Photos.jpg" alt="Shirley Setia" style="width: 800px">
+<img src="https://mygallerycollections.files.wordpress.com/2017/12/beautiful-shirley-setia-in-shades-stylish-hd-wallpaper.jpg?w=1000&h=" style="width: 800px">
 
 Her family hails from Daman, India where she was born. When she was very young, her family moved to Dannemora, East Auckland, New Zealand. Her father Raj is a businessman. She has a younger brother named Shane.
 

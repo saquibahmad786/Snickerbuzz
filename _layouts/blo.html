@@ -139,7 +139,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-3" style="display: inherit;">
-                {% for post in site.categories.blogs limit:5 %}
+                {% for post in site.categories.blogs limit:4 %}
                 <a style="padding: 15px 8px;" href="{{site.url}}/{{post.url}}">
                   <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="{{post.thumbnail}}" alt="{{post.title}}">

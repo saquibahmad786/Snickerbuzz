@@ -34,18 +34,7 @@ $.validate({
     lang: 'en'
 });
 
-// // when search icon is clicked
-// $('#search').click(function() {
-//     $('#search-container input').css('display', 'inherit');
-// });
 
-
-// // Jekyll search
-// SimpleJekyllSearch({
-//     searchInput: document.getElementById('search-input'),
-//     resultsContainer: document.getElementById('results-container'),
-//     json: 'search.json'
-// })
 
 
 
