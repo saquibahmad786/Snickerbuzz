@@ -138,7 +138,10 @@
       <div class="blogs-rel" id="blogs-rel">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-3" style="display: inherit;">
+            <div class="col-lg-3">
+              <div class="displaydesk">
+                  
+                </div>
                 {% for post in site.categories.entertainment limit:4 %}
                 <a style="padding: 15px 8px;" href="{{site.url}}/{{post.url}}">
                   <div class="card" style="width: 18rem;">
@@ -149,6 +152,7 @@
                   </div>
                 </a>
                 {% endfor %}
+
             </div>
           </div>
        </div>

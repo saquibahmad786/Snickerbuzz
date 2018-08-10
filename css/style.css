@@ -623,6 +623,10 @@ th {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); }
 
+    .displaydesk{
+        display: inherit;
+    }
+
 
 /*Media Query*/
 

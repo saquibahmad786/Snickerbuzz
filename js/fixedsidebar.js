@@ -29,3 +29,13 @@
     
     };
 
+//inherit
+    if ($(window).width() > 1000) {
+        $(".blogs-rel .col-lg-3").addClass('displaydesk');
+    }
+
+    if ($(window).width() < 1000) {
+        $(".blogs-rel .col-lg-3").removeClass('displaydesk');
+    }
+
+   
