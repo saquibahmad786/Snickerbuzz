@@ -23,7 +23,7 @@ duration:  2h 53min
 
 category: tollywood
 
-counter: http://www.cutercounter.com/hit.php?id=21223&nd=6&style=125
+counter: http://www.cutercounter.com/hit.php?id=21994&nd=6&style=125
 
 trailer: IvSoRWkaKn4
 
