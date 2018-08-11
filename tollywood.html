@@ -1,13 +1,13 @@
 ---
-permalink: "./series.html"
+permalink: "./tollywood.html"
 
-description: Check out most popular TV shows and Web Series exclusively on SnickerBuzz.
+description: Download the latest South Indian movies in hd and also watch them online from tollywood box office exclusively at SnickerBuzz.
 
 ---
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Web Series - SnickerBuzz</title>
+		<title>Tollywood Movies Watch & Download - SnickerBuzz</title>
 		<link rel="shortcut icon" href="images/logo.png" type="image/png">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
@@ -20,24 +20,20 @@ description: Check out most popular TV shows and Web Series exclusively on Snick
 	    <link rel="stylesheet" href="css/style.css">
 	    <meta name="title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 		<meta name="description" content="{% if page.description%}{{page.description}}{% else%}{{site.description}}{% endif%}">
-		<meta name="keywords" content="movies online free, snickerbuzz, snickerbuzz.com, watch free movies, watch online movies, free online streaming, los movies, full movies,
-		watch films online, watch movies free online, free movies to watch, online movies free, watch movies free,
-		free full movies online, movie times, movieonline, watch hd movies,
-		watch HD films, Hot new movies, stream movies online free">
 		<meta name="url" content="{% if page.url%}{{page.url}}{% else %}{{site.baseurl}}{% endif %}">
 		<meta name="image" content="{%if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}">
 		<meta property="og:locale" content="en_US">
-		<meta property="og:type" content="post">
+		<meta property="og:type" content="Bollywood page">
 		<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - SnickerBuzz">
 		<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
 		<meta property="og:image" content="{%if page.thumbnail %}{{ page.thumbnail }}{% else %}{{ site.thumbnail }}{% endif %}" />
+		<!-- ssl -->
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 		<meta property="og:site_name" content="{{site.name}}">
 		<meta property="article:publisher" content="{{site.name}}" />
 		<meta property="article:author" content="{{site.author}}" />
 		<meta property="article:published_time" content="{{ page.date }}" />
-		<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-		<!-- ssl -->
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+		<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 	</head>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -58,13 +54,13 @@ description: Check out most popular TV shows and Web Series exclusively on Snick
 	            <a class="nav-link" href="./hollywood.html">Hollywood</a>
 	          </li>
 	          <li class="nav-item text-left active">
-	            <a class="nav-link" href="./bollywood.html">Bollywood</a>
+	            <a class="nav-link" href="./bollywood.html">Bollywood <span class="sr-only">(current)</span></a>
 	          </li>
 	          <li class="nav-item text-left active">
 		        <a class="nav-link" href="./tollywood.html">South Movies</a>
 		      </li>
 	          <li class="nav-item text-left active">
-	            <a class="nav-link" href="./series.html">Web Series <span class="sr-only">(current)</span></a>
+	            <a class="nav-link" href="./series.html">Web Series</a>
 	          </li>
 	        </ul>
 	        <ul class="navbar-nav">
@@ -84,10 +80,12 @@ description: Check out most popular TV shows and Web Series exclusively on Snick
 	        
 	      </div>
 	    </nav>
+
+
 		<!-- movie carosoul-->
 		<div class="top-header">
 		  <div class="owl-carousel">
-		    {% for post in site.categories.series limit:10%}
+		    {% for post in site.categories.tollywood limit:10%}
 		      <div class="image-container">
 		        <img src="{{post.thumbnail}}" alt="{{post.title}}">
 		        <a href="{{site.url}}/{{post.url}}"><div class="movie-details">
@@ -104,11 +102,13 @@ description: Check out most popular TV shows and Web Series exclusively on Snick
 			</div>
 		</div>
 
+
+
 		<!--Movies-->
 		<div class="category-title">
 		<div class="row">
 		  <div class="col-lg-12">
-		    <h3>Web Series</h3>
+		    <h3>Movies</h3>
 		  </div>
 		</div>
 		</div>
@@ -116,7 +116,7 @@ description: Check out most popular TV shows and Web Series exclusively on Snick
 		<div class="container-fluid">
 		  <div class="row">
 		    <div class="col-lg-12">
-		      {% for post in site.categories.series%}
+		      {% for post in site.categories.tollywood%}
 		        <div class="cards-content">
 		          <figure>
 		            <span>{{post.imdb}}</span>
@@ -133,18 +133,19 @@ description: Check out most popular TV shows and Web Series exclusively on Snick
 		  </div>
 		</div>
 		</div>
-		
+
 		<!--javascript-->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-		<script src="js/owl.carousel.min.js" charset="utf-8"></script>
+		<script src="{{site.url}}/js/owl.carousel.min.js" charset="utf-8"></script>
 		<script src="js/search.js" charset="utf-8"></script>
 		<script src="js/main.js" charset="utf-8"></script>
 		<script src="http://vjs.zencdn.net/6.2.7/video.js"></script>
 		<script src="https://unpkg.com/videojs-flash/dist/videojs-flash.js"></script>
 		<script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59b2315608b86ac1"></script>
 		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59b2315608b86ac1"></script>
 		<script src="//go.mobtrks.com/notice.php?p=1816245&interstitial=1"></script>
 		{% include propads.html%}

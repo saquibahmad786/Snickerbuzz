@@ -588,7 +588,7 @@ th {
     position: relative;
 }
 
-.service #overlay1,
+/*.service #overlay1,
   .service #overlay2,
   .service #overlay3,
   .service #overlay4 {
@@ -625,7 +625,7 @@ th {
 
     .displaydesk{
         display: inherit;
-    }
+    }*/
 
 
 /*Media Query*/

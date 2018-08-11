@@ -1,5 +1,5 @@
 ---
-permalink: "./index.html"
+
 ---
 
 <!DOCTYPE html>
@@ -16,7 +16,7 @@ permalink: "./index.html"
 		<meta name="url" content="{{site.baseurl}}">
 		<meta name="image" content="{{ site.thumbnail }}">
 		<meta property="og:locale" content="en_US">
-		<meta property="og:type" content="Blogs and Movies">
+		<meta property="og:type" content="Movies and Web Series">
 		<meta property="og:title" content="{{ site.title }}">
 		<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
 		<meta property="og:image" content="{{ site.thumbnail }}" />
@@ -31,7 +31,7 @@ permalink: "./index.html"
 	<body>
 		<!-- NavBar-->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <a class="navbar-brand" href="./index.html">
+		  <a class="navbar-brand" href="{{ site.baseurl }}">
 		    <img src="images/logo.png" width="100" height="40" class="d-inline-block align-top" alt="">
 		    {{ site.title }}
 		  </a>
@@ -42,16 +42,16 @@ permalink: "./index.html"
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto">
 		      <li class="nav-item text-left active">
-		        <a class="nav-link" href="./index.html">Home</a>
+		        <a class="nav-link" href="{{ site.url }}">Home <span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item text-left active">
-		        <a class="nav-link" href="./entertainment.html">Entertainment</a>
+		        <a class="nav-link" href="./hollywood.html">Hollywood</a>
 		      </li>
 		      <li class="nav-item text-left active">
-		        <a class="nav-link" href="./movie.html">Movies</a>
+		        <a class="nav-link" href="./bollywood.html">Bollywood</a>
 		      </li>
 		      <li class="nav-item text-left active">
-		        <a class="nav-link" href="./blogs.html">Blogs</a>
+		        <a class="nav-link" href="./tollywood.html">South Movies</a>
 		      </li>
 		      <li class="nav-item text-left active">
 		        <a class="nav-link" href="./series.html">Web Series</a>
@@ -68,7 +68,7 @@ permalink: "./index.html"
 		            <a class="nav-link" href="https://www.instagram.com/_saquibahmad/"><i class="fab fa-instagram fa-2x"></i></a>
 		        </li>
 		    	<li class="nav-item text-left active">
-		        <a class="nav-link" href="./about.html">About Owner <span class="sr-only">(current)</span></a>
+		        <a class="nav-link" href="./about.html">About Owner</a>
 		      	</li>
 		    </ul>
 		  </div>
@@ -80,18 +80,9 @@ permalink: "./index.html"
 		    <li data-target="#carouselIndicators" data-slide-to="1"></li>
 		    <li data-target="#carouselIndicators" data-slide-to="2"></li>
 		    <li data-target="#carouselIndicators" data-slide-to="3"></li>
-		    <li data-target="#carouselIndicators" data-slide-to="4"></li>
 		  </ol>
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <a href="./entertainment.html">
-		      <img class="d-block w-100" src="images/entertainment.jpg" alt="Entertainment">
-		      <div class="carousel-caption d-none d-md-block">
-		      	<h1 id="cap1">Entertainment</h1>
-			    <h5 id="cap6">Get the latest news and gossips of celebs</h5>
-			  </div></a>
-		    </div>
-		    <div class="carousel-item">
 		    	<a href="./hollywood.html">
 		      <img class="d-block w-100" src="images/hollywood.jpg" alt="Hollywood">
 		      <div class="carousel-caption d-none d-md-block">
@@ -108,11 +99,11 @@ permalink: "./index.html"
 			  </div></a>
 		    </div>
 		    <div class="carousel-item">
-		    	<a href="./blogs.html">
-		      <img class="d-block w-100" src="images/blog.jpg" alt="Blogs">
+		    	<a href="./tollywood.html">
+		      <img class="d-block w-100" src="images/south.jpg" alt="South Movies">
 		      <div class="carousel-caption d-none d-md-block">
-		      	<h1 id="cap4">Blogs</h1>
-			    <h5 id="cap9">View my blogs on our daily life.</h5>
+		      	<h1 id="cap4">South Movies</h1>
+			    <h5 id="cap9">View and download latest South Indian movies</h5>
 			  </div></a>
 		    </div>
 		    <div class="carousel-item">
@@ -132,61 +123,6 @@ permalink: "./index.html"
 		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		    <span class="sr-only">Next</span>
 		  </a>
-		</div>
-		<!-- entertainment section -->
-		<div class="container-bloghead" style="margin-top: 30px;">
-			<div class="row">
-				<div class="col-lg-8">
-					<h3 align="left" style="margin-left: 20px;">Entertainment Blogs</h3>
-				</div>
-				<div class="col-lg-4" align="right">
-					<a href="./entertainment.html" style="margin-top: 10px;" id="blo-id">View More >></a>
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid" align="left">
-			<div class="row">
-				{% for post in site.categories.entertainment limit:4 %}
-				<div class="col-lg-3">
-					<a style="padding: 15px 15px;" href="{{site.url}}/{{post.url}}">
-	                  <div class="card" style="width: 18rem;">
-	                    <img class="card-img-top" src="{{post.thumbnail}}" alt="{{post.title}}">
-	                    <div class="card-body">
-	                      <h5 class="card-title">{{post.title}}</h5>
-	                    </div>
-	                  </div>
-	                </a></div>
-					{% endfor %}
-				
-			</div>
-		</div>
-<!-- blogs section -->
-
-<div class="container-bloghead" style="margin-top: 30px;">
-			<div class="row">
-				<div class="col-lg-8">
-					<h3 align="left" style="margin-left: 20px;">Blogs</h3>
-				</div>
-				<div class="col-lg-4" align="right">
-					<a href="./blogs.html" style="margin-top: 10px;" id="blo-id">View More >></a>
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid" align="left">
-			<div class="row">
-				{% for post in site.categories.blogs limit:4 %}
-				<div class="col-lg-3">
-					<a style="padding: 15px 15px;" href="{{site.url}}/{{post.url}}">
-	                  <div class="card" style="width: 18rem;">
-	                    <img class="card-img-top" src="{{post.thumbnail}}" alt="{{post.title}}">
-	                    <div class="card-body">
-	                      <h5 class="card-title">{{post.title}}</h5>
-	                    </div>
-	                  </div>
-	                </a></div>
-					{% endfor %}
-				
-			</div>
 		</div>
 		<!-- movies section -->
 		<div class="category-title">
@@ -239,6 +175,40 @@ permalink: "./index.html"
 				  <div class="row">
 				    <div class="col-lg-12 col-md-12 col-sm-3 col-xs-3">
 				      {% for post in site.categories.bollywood limit:4%}
+				        <div class="cards-content">
+				          <figure>
+				            <span>{{post.imdb}}</span>
+				            <a href="{{site.url}}/{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
+				          </figure>
+				          <figcaption>
+				          <h4>{{post.title}}</h4>
+				          <br>
+				          <p>{{post.genre}}</p>
+				          </figcaption>
+				        </div>
+				      {% endfor %}
+				    </div>
+				  </div>
+				</div>
+				</div>
+
+				<div class="category-title">
+				<div class="row">
+				  <div class="col-lg-8">
+				    <h3>South Indian Movies</h3>
+				  </div>
+				  <div class="col-lg-4">
+				  	<div class="link">
+						<a href="./tollywood.html" id="bollywood-id">view more &raquo;</a>
+					</div>
+				  </div>
+				</div>
+				</div>
+				<div class="cards">
+				<div class="container-fluid">
+				  <div class="row">
+				    <div class="col-lg-12 col-md-12 col-sm-3 col-xs-3">
+				      {% for post in site.categories.tollywood limit:4%}
 				        <div class="cards-content">
 				          <figure>
 				            <span>{{post.imdb}}</span>
