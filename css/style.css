@@ -748,7 +748,7 @@ th {
 
 @media (min-width: 641px) and (max-width: 1000px) {
     .navbar-brand{
-        font-size: 28px;
+        font-size: 28px !important;
     }
 
     .navbar-brand img{
