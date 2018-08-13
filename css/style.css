@@ -742,7 +742,7 @@ th {
     }
 
     .navbar-brand{
-        font-size: 20px;
+        font-size: 20px !important;
     }
 }
 
@@ -758,9 +758,9 @@ th {
     .card{
         width: 100% !important;
     }
-    .navbar{
+    /*.navbar{
         font-size: 1.75rem;
-    }
+    }*/
     .ads-container{
         width: 100% !important;
         margin: 0 !important;
