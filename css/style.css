@@ -740,11 +740,15 @@ th {
     width: 450px !important;
     margin-left: 16px;
     }
+
+    .navbar-brand{
+        font-size: 20px;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 1000px) {
     .navbar-brand{
-        font-size: 20px;
+        font-size: 31px;
     }
 
     .navbar-brand img{
