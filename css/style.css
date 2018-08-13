@@ -744,6 +744,22 @@ th {
     .navbar-brand{
         font-size: 20px !important;
     }
+
+    .contact h1 {
+        font-size: 50px !important;
+    }
+
+    .contact .form-container {
+        width: 100% !important;
+    }
+    .footer-credit .footer-container .confess p {
+        padding: 20px;
+        letter-spacing: 0.6px;
+        word-spacing: 1px;
+        font-size: 12px;
+        line-height: 25px;
+        text-align: center;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 1000px) {
