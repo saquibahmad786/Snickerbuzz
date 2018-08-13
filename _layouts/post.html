@@ -55,6 +55,9 @@
           <li class="nav-item text-left active">
             <a class="nav-link" href="{{site.baseurl}}/./series.html">Web Series</a>
           </li>
+          <li class="nav-item text-left active">
+              <a class="nav-link" href="{{site.baseurl}}/./anime.html">Animated</a>
+            </li>
         </ul>
         <ul class="navbar-nav">
           <li class="nav-item text-left active">
@@ -224,6 +227,21 @@
                 {% endif %}
                 {% if page.category == "tollywood" %}
                 {% for post in site.categories.tollywood limit:5 %}
+                  <div class="cards-content">
+                    <figure>
+                      <span>{{post.imdb}}</span>
+                      <a href="{{site.baseurl}}{{post.url}}"><img src="{{post.thumbnail}}" alt="{{post.title}}"></a>
+                    </figure>
+                    <figcaption>
+                    <h4>{{post.title}}</h4>
+                    <br>
+                    <p>{{post.genre}}</p>
+                    </figcaption>
+                  </div>
+                {% endfor %}
+              {% endif %}
+              {% if page.category == "anime" %}
+                {% for post in site.categories.anime limit:5 %}
                   <div class="cards-content">
                     <figure>
                       <span>{{post.imdb}}</span>
