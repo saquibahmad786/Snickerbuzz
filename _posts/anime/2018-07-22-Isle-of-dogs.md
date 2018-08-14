@@ -23,7 +23,7 @@ duration:  1h 41min
 
 category: anime
 
-counter: http://www.cutercounter.com/hit.php?id=22427&nd=6&style=125
+counter: http://www.cutercounter.com/hit.php?id=22658&nd=6&style=125
 
 trailer: dt__kig8PVU
 
