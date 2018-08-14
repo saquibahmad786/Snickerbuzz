@@ -697,7 +697,7 @@ th {
 
     .newsletter form .input-group {
     margin: 20px auto;
-    width: 450px !important;
+    width: 93% !important;
     margin-left: 16px;
     }
 
@@ -812,7 +812,7 @@ th {
 
     .newsletter form .input-group {
     margin: 20px auto;
-    width: 600px;
+    width: 435% !important;
     margin-left: 20px;
     }
 
