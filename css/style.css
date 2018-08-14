@@ -587,49 +587,10 @@ th {
     position: relative;
 }
 
-/*.service #overlay1,
-  .service #overlay2,
-  .service #overlay3,
-  .service #overlay4 {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: rgba(0, 0, 0, 0.8); }
-  .service .service-container:hover #overlay1 {
-    opacity: 1; }
-  .service .service-container:hover #overlay2 {
-    opacity: 1; }
-  .service .service-container:hover #overlay3 {
-    opacity: 1; }
-  .service .service-container:hover #overlay4 {
-    opacity: 1; }
-  .service #text1,
-  .service #text2,
-  .service #text3,
-  .service #text4 {
-    color: white;
-    font-size: 18px;
-    text-transform: capitalize;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%); }
-
-    .displaydesk{
-        display: inherit;
-    }*/
-
 
 /*Media Query*/
 
-@media ( min-width: 320px) and (max-width: 640px){
+@media ( min-width: 320px) and (max-width: 575px){
      .card{
         width: 100% !important;
     }
@@ -761,7 +722,7 @@ th {
     }
 }
 
-@media (min-width: 641px) and (max-width: 1000px) {
+@media (min-width: 575px) and (max-width: 1000px) {
     .navbar-brand{
         font-size: 28px !important;
     }
@@ -773,9 +734,7 @@ th {
     .card{
         width: 100% !important;
     }
-    /*.navbar{
-        font-size: 1.75rem;
-    }*/
+    
     .ads-container{
         width: 100% !important;
         margin: 0 !important;
@@ -859,6 +818,18 @@ th {
 
     .card h5 {
         font-size: 2.0rem;
+    }
+
+    .contact .form-container {
+        width: 100% !important;
+    }
+    .footer-credit .footer-container .confess p {
+        padding: 20px;
+        letter-spacing: 0.6px;
+        word-spacing: 1px;
+        font-size: 12px;
+        line-height: 25px;
+        text-align: center;
     }
 
 }
