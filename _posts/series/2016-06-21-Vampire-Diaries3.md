@@ -22,7 +22,7 @@ genre:   Drama, Fantasy, Horror
 
 category: series
 
-counter: http://www.cutercounter.com/hit.php?id=24270&nd=6&style=125
+counter: http://www.cutercounter.com/hit.php?id=24276&nd=6&style=125
 
 trailer: O7LNsm96dOY
 
