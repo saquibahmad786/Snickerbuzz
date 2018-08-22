@@ -31,12 +31,12 @@ server1: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13
 index2: 2
 episode2: Episode 2
 season1: Season 2
-server2: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E02.720p.WEBRip.MkvCage.FardaDL.mkv
+server1: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E02.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index3: 3
 episode3: Episode 3
 season1: Season 2
-server3: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E03.720p.WEBRip.MkvCage.FardaDL.mkv
+server1: http://dl1.upload08.com/files/Serial/new/13%20Reasons%20Why/S02/720p/13.Reasons.Why.S02E03.720p.WEBRip.MkvCage.FardaDL.mkv
 
 index4: 4
 episode4: Episode 4
