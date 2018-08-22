@@ -1,4 +1,7 @@
 ---
+
+permalink: "./vampirediaries3"
+
 layout: selay
 
 title: The Vampire Diaries Season 2
