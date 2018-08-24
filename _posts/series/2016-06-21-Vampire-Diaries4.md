@@ -11,7 +11,7 @@ writer:     Julie Plec, Kevin Williamson
 
 star:     Nina Dobrev, Paul Wesley, Ian Somerhalder
 
-thumbnail: https://vignette.wikia.nocookie.net/vampirediaries/images/f/ff/Vampire-diaries-season-2-promo-poster-2.jpg/revision/latest/scale-to-width-down/360?cb=20100827170104
+thumbnail: http://vampirediariesonline.com/wp-content/uploads/2013/02/vampire-diaries-season-4-february-sweeps-poster-3-791x1024.jpg
 
 imdb: 7.7
 
