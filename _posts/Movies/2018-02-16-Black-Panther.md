@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./black-panther"
 
 title: Black Panther (2018)
 

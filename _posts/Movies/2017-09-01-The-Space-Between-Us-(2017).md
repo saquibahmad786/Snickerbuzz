@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./space-between-us"
 
 title: The Space Between Us (2017)
 

@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./isleofdogs"
 
 title: Isle of Dogs (2018)
 

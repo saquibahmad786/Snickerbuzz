@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./solo-star-war"
 
 title: Solo A Star Wars Story (2018)
 

@@ -3,6 +3,8 @@ layout: selay
 
 title: The Vampire Diaries Season 4
 
+permalink: "./vampire-diaries4"
+
 description: A young teen struggles to make a decision between two vampire brothers and their supernatural lives. Soon after she discovers the truth her whole world turns upside down.
 
 director:     Julie Plec, Kevin Williamson

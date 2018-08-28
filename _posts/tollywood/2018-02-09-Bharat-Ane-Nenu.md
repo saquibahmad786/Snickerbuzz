@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./bharat-ane-nenu"
 
 title: Bharat Ane Nenu(2018)
 

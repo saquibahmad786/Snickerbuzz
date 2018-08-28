@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./captain-america-civil-war"
 
 title: Captain America Civil War (2016)
 

@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./bhaagmathie"
 
 title: Bhaagamathie (2018)
 

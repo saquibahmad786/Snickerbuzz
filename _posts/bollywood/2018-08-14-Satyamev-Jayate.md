@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./satyamevjayate"
 
 title: Satyameva Jayate (2018)
 

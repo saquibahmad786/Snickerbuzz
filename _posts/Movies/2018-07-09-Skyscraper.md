@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./scyscraper"
 
 title: Skyscraper (2018)
 

@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./cloverfeild-lane"
 
 title: 10 Cloverfield Lane (2016)
 

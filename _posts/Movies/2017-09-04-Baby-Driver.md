@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./baby-driver"
 
 title: Baby Driver (2017)
 

@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./spiderman-homecoming"
 
 title: Spider-Man Homecoming (2017)
 

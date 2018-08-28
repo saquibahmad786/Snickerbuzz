@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./secretlifeofpets"
 
 title: The Secret Life of Pets (2016)
 

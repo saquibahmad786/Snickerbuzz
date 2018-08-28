@@ -1,6 +1,8 @@
 ---
 layout: selay
 
+permalink: "./sacred-games"
+
 title: Sacred Games
 
 description: A link in their pasts leads an honest cop to a fugitive gang boss, whose cryptic warning spurs the officer on a quest to save Mumbai from cataclysm.

@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./transformersthelastknight"
 
 title: Transformers The Last Knight (2017)
 

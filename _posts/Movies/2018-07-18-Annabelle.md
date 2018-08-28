@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./annabelle-creation"
 
 title: Annabelle Creation (2017)
 

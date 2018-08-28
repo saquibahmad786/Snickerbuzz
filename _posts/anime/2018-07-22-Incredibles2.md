@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./incredibles2"
 
 title: Incredibles 2 (2018)
 

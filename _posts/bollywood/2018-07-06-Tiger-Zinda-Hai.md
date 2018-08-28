@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./tigerzindahai"
 
 title: Tiger Zinda Hai (2017)
 

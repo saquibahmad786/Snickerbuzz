@@ -1,6 +1,8 @@
 ---
 layout: selay
 
+permalink: "./13reasons-why"
+
 title: 13 Reasons Why
 
 description: Follows teenager Clay Jensen, in his quest to uncover the story behind his classmate and crush, Hannah, and her decision to end her life.

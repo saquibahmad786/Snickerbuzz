@@ -1,6 +1,8 @@
 ---
 layout: selay
 
+permalink: "./vampire-diaries2"
+
 title: The Vampire Diaries Season 2
 
 description: A young teen struggles to make a decision between two vampire brothers and their supernatural lives. Soon after she discovers the truth her whole world turns upside down.

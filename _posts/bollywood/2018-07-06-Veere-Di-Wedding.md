@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./veerediwedding"
 
 title: Veere Di Wedding (2018)
 

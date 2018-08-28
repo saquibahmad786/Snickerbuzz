@@ -1,6 +1,8 @@
 ---
 layout: selay
 
+permalink: "./karenjeit-kaur"
+
 title: Karenjit Kaur - The Untold Story of Sunny Leone
 
 description: The life story of Indian-Canadian actress and former adult film star, Sunny Leone.

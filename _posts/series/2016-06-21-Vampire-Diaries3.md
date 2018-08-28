@@ -1,6 +1,6 @@
 ---
 
-permalink: "./vampirediaries3"
+permalink: "./vampire-diaries3"
 
 layout: selay
 

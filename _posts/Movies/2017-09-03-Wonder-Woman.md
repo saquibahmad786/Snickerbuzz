@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./wonderwoman"
 
 title: Wonder Woman (2017)
 

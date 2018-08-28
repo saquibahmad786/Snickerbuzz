@@ -2,6 +2,7 @@
 
 layout: post
 
+permalink: "./luststories"
 
 title: Lust Stories (2018)
 
