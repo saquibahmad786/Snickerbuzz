@@ -1,0 +1,1 @@
+$(".stream-options a").click(function(event){event.preventDefault();$getData=$(this).attr("href");document.getElementById("my-video_html5_api").src=$getData;document.getElementById("my-video_html5_api").load();document.getElementById("my-video_html5_api").play();$(window).scrollTop(0)});
