@@ -24,7 +24,7 @@ duration:  2h 36min
 
 category: bollywood
 
-counter: http://www.cutercounter.com/hit.php?id=26106&nd=6&style=125
+counter: http://www.cutercounter.com/hit.php?id=gkcfdx&nd=6&style=125
 
 trailer: ToxnuakJrqE
 
