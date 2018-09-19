@@ -43,7 +43,7 @@ server3: https://nofile.io/f/zkVOYSv9awO/Karenjit+Kaur+-+S02E03+-+Is+It+Happily+
 index4: 4
 episode4: Episode 4
 season1: Season 2
-server4: https://nofile.io/f/xHTXxf33usz/Karenjit+Kaur+-+S02E02+-+Guilty+of+Doing+It+our+way+-+%5BMoviesBaba.com%5D.mkv
+server4: https://clicknupload.org/9i3vvyykpsn4
 
 index5: 5
 episode5: Episode 5
@@ -53,7 +53,7 @@ server5: https://nofile.io/f/8rNbq0nNAUj/Karenjit+Kaur+-+S02E05+-+The+Last+Wish+
 index6: 6
 episode6: Episode 6
 season1: Season 2
-server6: https://nofile.io/f/zkVOYSv9awO/Karenjit+Kaur+-+S02E03+-+Is+It+Happily+Ever+After+-+%5BMoviesBaba.com%5D.mkv
+server6: https://clicknupload.org/44s2s8e8bkit
 
 ---
 
