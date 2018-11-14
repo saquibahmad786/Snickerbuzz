@@ -28,7 +28,7 @@ trailer: zI-Pux4uaqM
 
 index1: 1 
 quality1: 720p 
-server1: http://moviescounter.biz/start-downloading/
+server1: http://moviescounter.biz/2018-movies/thugs-of-hindostan-2018-movie-free-download-720p-bluray-mc/
 ---  
 
 Vijay Krishna Acharya (Victor), the writer-director of the all-time YRF blockbuster DHOOM:3, teams up once again with Aamir Khan in THUGS OF HINDOSTAN along with Amitabh Bachchan to give the audience a never seen before experience of a larger than life filmmaking. This YRF film holds a double bonanza by bringing together Amitabh Bachchan and Aamir Khan together for the first time ever. That in itself, is film lore in making. The film is set to treat audiences across age groups with the biggest jaw-dropping action sequences seen by audiences on screen to date. Experience the edge-of-the-seat thrills and an epic adventure and war on the seas.
