@@ -28,112 +28,112 @@ trailer: O9DzVJo_2vI
 index1: 1
 episode1: Episode 1
 season1: Season 2
-server1: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E01.Tehmovies.com.mkv
+server1: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E01.mkv
 
 index2: 2
 episode2: Episode 2
 season1: Season 2
-server2: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E02.Tehmovies.com.mkv
+server2: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E02.mkv
 
 index3: 3
 episode3: Episode 3
 season1: Season 2
-server3: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E03.Tehmovies.com.mkv
+server3: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E03.mkv
 
 index4: 4
 episode4: Episode 4
 season1: Season 2
-server4: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E04.Tehmovies.com.mkv
+server4: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E04.mkv
 
 index5: 5
 episode5: Episode 5
 season1: Season 2
-server5: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E05.Tehmovies.com.mkv
+server5: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E05.mkv
 
 index6: 6
 episode6: Episode 6
 season1: Season 2
-server6: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E06.Tehmovies.com.mkv
+server6: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E06.mkv
 
 index7: 7
 episode7: Episode 7
 season1: Season 2
-server7: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E07.Tehmovies.com.mkv
+server7: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E07.mkv
 
 index8: 8
 episode8: Episode 8
 season1: Season 2
-server8: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E08.Tehmovies.com.mkv
+server8: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E08.mkv
 
 index9: 9
 episode9: Episode 9
 season1: Season 2
-server9: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E09.Tehmovies.com.mkv
+server9: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E09.mkv
 
 index10: 10
 episode10: Episode 10
 season1: Season 2
-server10: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E10.Tehmovies.com.mkv
+server10: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E10.mkv
 
 index11: 11
 episode11: Episode 11
 season1: Season 2
-server11: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E11.Tehmovies.com.mkv
+server11: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E11.mkv
 
 index12: 12
 episode12: Episode 12
 season1: Season 2
-server12: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E12.Tehmovies.com.mkv
+server12: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E12.mkv
 
 index13: 13
 episode13: Episode 13
 season1: Season 2
-server13: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E13.Tehmovies.com.mkv
+server13: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E13.mkv
 
 index14: 14
 episode14: Episode 14
 season1: Season 2
-server14: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E14.Tehmovies.com.mkv
+server14: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E14.mkv
 
 index15: 15
 episode15: Episode 15
 season1: Season 2
-server15: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E15.Tehmovies.com.mkv
+server15: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E15.mkv
 
 index16: 16
 episode16: Episode 16
 season1: Season 2
-server16: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E16.Tehmovies.com.mkv
+server16: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E16.mkv
 
 index17: 17
 episode17: Episode 17
 season1: Season 2
-server17: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E17.Tehmovies.com.mkv
+server17: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E17.mkv
 
 index18: 18
 episode18: Episode 18
 season1: Season 2
-server18: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E18.Tehmovies.com.mkv
+server18: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E18.mkv
 
 index19: 19
 episode19: Episode 19
 season1: Season 2
-server19: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E19.Tehmovies.com.mkv
+server19: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E19.mkv
 
 index20: 20
 episode20: Episode 20
 season1: Season 2
-server20: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E20.Tehmovies.com.mkv
+server20: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E20.mkv
 
 index21: 21
 episode21: Episode 21
 season1: Season 2
-server21: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E21.Tehmovies.com.mkv
+server21: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E21.mkv
 
 index22: 22
 episode22: Episode 22
 season1: Season 2
-server22: http://dl20.mihanpix.com/94/series/vampire.diaries/season2/Vpr.Dres_S02.E22.Tehmovies.com.mkv
+server22: http://79.127.126.110/Serial/The%20Vampire%20Diaries/S02/Vpr.Dres_S02.E22.mkv
 
 ---
 
